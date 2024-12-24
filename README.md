@@ -1,7 +1,7 @@
 # Chatbot Konseling dan Dukungan Mahasiswa Semester Akhir Universitas Bengkulu
 Tugas Pembuatan Model Chatbot Konseling dan Dukungan Mahasiswa Semester Akhir Universitas Bengkulu dengan metode Long Sort Time Memory (LSTM) untuk tugas klasifikasi teks, sebagai bagian dari Ujian Akhir Semester Mata Kuliah Deep Learning.
 
-**Anggota Kelompok**
+## **Anggota Kelompok**
 
 | Nama               | NPM             | 
 | ------------------ |---------------- |
@@ -9,7 +9,7 @@ Tugas Pembuatan Model Chatbot Konseling dan Dukungan Mahasiswa Semester Akhir Un
 | Fadilah Syakirah   | G1A021022       | 
 | Adelia Ayu Lestari | G1A021066       | 
 
-**Detail Pelatihan**
+## **Detail Pelatihan**
 1. Proses Pra-pemrosesan Data
    Pada tahap ini, teks terlebih dahulu ditokenisasi menggunakan Tokenizer untuk mengubah setiap kata menjadi representasi numerik. Selanjutnya, padding diterapkan untuk menyamakan panjang semua urutan, sehingga data dapat diproses dalam bentuk batch. Setelah itu, encoding label dilakukan menggunakan LabelEncoder untuk mengonversi label kategori menjadi format numerik yang dapat digunakan oleh model.
 2. Arsitektur Model
@@ -19,7 +19,7 @@ Tugas Pembuatan Model Chatbot Konseling dan Dukungan Mahasiswa Semester Akhir Un
 4. Training
    Proses pelatihan model dilakukan selama 300 epoch dengan pembagian dataset menjadi data pelatihan dan data pengujian. Hal ini memungkinkan model untuk belajar dari data pelatihan dan divalidasi kinerjanya menggunakan data pengujian.
    
-**Detail Model**
+## **Detail Model**
 
 Total Pelatihan     : 300 epoch<br>
 Rata-rata Accuracy  : 0.9797<br>
@@ -36,15 +36,15 @@ Grafik Loss
    <img src="https://github.com/user-attachments/assets/1e25b6cc-783b-44df-b76d-31814f04b61b" width="700"/>
 </div>
 
-**Output Model**
+## **Output Model**
 <br>
 <img src="https://github.com/user-attachments/assets/d9e295fc-265f-48c4-8b56-918ea053cde9" width="1000"/>
 
 
-**Kesimpulan**<br?
+## **Kesimpulan**<br>
   Dari pengujian model LTSM dalam pembangunan ChatBot Konseling dan Dukungan mahasiswa semester akhir Universitas Bengkulu dapat disimpulkan bahwa model mendapat akurasi yang cukup bagus, yakni dengan rata-rata akurasi sebesar 0.9797. Kemudian, nilai loss pada model menunjukkan angka 0.0428 yang berarti nilai kesalahan atau error pada model terbilang sangat kecil. Model LSTM dengan  total data sebesar 93 kelas dengan total pelatihan atau epoch sebanyak 300 ini sudah layak untuk diimplementasikan pada berbagai tugas yang melibatkan klasifikasi teks.
 
-**Saran**<br>
+## **Saran**<br>
   Model sudah cukup baik, tetapi masih harus diperbanyak lagi penambahan data, apalagi tema yang terkait konseling sangat amat bervariasi serta permasalahan sosial dan tekanan mental pada Mahasiswa sangat banyak yang dipengaruhi oleh berbagai faktor. Maka, untuk kedepannya Chatbot SahabatAkhirUnib haruslah dapat menjawab berbagai persoalan secara lebih luas lagi.
 
 
