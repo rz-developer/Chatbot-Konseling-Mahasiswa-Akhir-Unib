@@ -1,0 +1,1583 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hallo",
+        "hai",
+        "halo",
+        "hei",
+        "hi",
+        "hy",
+        "pagi",
+        "morning",
+        "siang",
+        "afternoon",
+        "sore",
+        "malam",
+        "bro",
+        "sis",
+        "kawan",
+        "sobat"
+      ],
+      "responses": [
+        "Hai! Aku SahabatAkhirUnib, chatbot konseling dan dukungan mahasiswa semester akhir Universitas Bengkulu. Apa yang bisa kubantu?",
+        "Halo! Aku SahabatAkhirUnib, yuk cerita apa yang sedang kamu hadapi?",
+        "Hei sobat! Ini SahabatAkhirUnib, siap mendukungmu. Cerita apa nih yang ingin kamu sampaikan?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Dah",
+        "Dadah",
+        "Bye",
+        "Byee",
+        "Good bye",
+        "Selamat tinggal",
+        "Sampai jumpa",
+        "Bai",
+        "See you"
+      ],
+      "responses": [
+        "Bye! Ingat, aku selalu di sini kalau kamu butuh bantuan :)",
+        "Dadahh! Jangan ragu untuk kembali jika membutuhkan dukungan!",
+        "Sampai jumpa lagi! Semangat terus ya!",
+        "See you! Aku siap mendukungmu kapan saja."
+      ]
+    },
+    {
+      "tag": "terimakasih",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Terima kasih",
+        "Makasih",
+        "Terima kasih banyak"
+      ],
+      "responses": [
+        "Sama-sama! Aku senang bisa membantu.",
+        "Dengan senang hati! Jangan ragu untuk bertanya lagi ya.",
+        "Aku selalu di sini untuk mendukungmu :)"
+      ]
+    },
+    {
+      "tag": "stress",
+      "patterns": [
+        "Aku stres",
+        "Saya merasa stres",
+        "Aku lagi banyak tekanan",
+        "Saya sedang stres",
+        "Tekanan di kampus membuatku stres"
+      ],
+      "responses": [
+        "Aku mendengarmu, kamu tidak sendiri. Sudah coba ambil waktu istirahat sebentar?",
+        "Stres itu wajar, coba ceritakan apa yang membuatmu merasa seperti ini?",
+        "Aku di sini untuk mendengarkan. Mungkin berbicara dengan konselor kampus juga bisa membantu."
+      ]
+    },
+    {
+      "tag": "motivasi",
+      "patterns": [
+        "Aku merasa gagal",
+        "Aku butuh motivasi",
+        "Aku merasa tidak cukup baik",
+        "Aku ingin semangat",
+        "Motivasi dong"
+      ],
+      "responses": [
+        "Kamu hebat, dan kegagalan adalah bagian dari proses belajar. Teruslah mencoba!",
+        "Ingat, setiap langkah kecil adalah kemajuan. Kamu lebih kuat dari yang kamu pikirkan.",
+        "Tidak apa-apa untuk merasa lelah. Berikan dirimu waktu untuk bangkit kembali."
+      ]
+    },
+    {
+      "tag": "konseling",
+      "patterns": [
+        "Bagaimana cara mengakses konseling di UNIB?",
+        "Dimana saya bisa berbicara dengan konselor kampus?",
+        "Saya ingin berbicara dengan konselor",
+        "Layanan konseling kampus ada di mana?"
+      ],
+      "responses": [
+        "Kamu bisa mengakses layanan konseling di Gedung Layanan Mahasiswa UNIB. Atau coba hubungi bagian kemahasiswaan untuk informasi lebih lanjut.",
+        "Layanan konseling tersedia untukmu. Silakan datang ke unit layanan konseling di kampus atau tanyakan jadwalnya di bagian kemahasiswaan.",
+        "Konseling di UNIB dapat diakses melalui unit layanan konseling di kampus. Jangan ragu untuk mencarinya!"
+      ]
+    },
+    {
+      "tag": "tips_study",
+      "patterns": [
+        "Bagaimana cara belajar yang efektif?",
+        "Tips belajar dong",
+        "Saya kesulitan belajar",
+        "Cara belajar yang baik bagaimana?"
+      ],
+      "responses": [
+        "Cobalah belajar dengan membuat jadwal harian, istirahat cukup, dan belajar di tempat yang nyaman.",
+        "Gunakan teknik seperti membaca secara aktif, mencatat poin penting, dan belajar bersama teman.",
+        "Prioritaskan tugas yang penting terlebih dahulu, dan jangan lupa beri waktu untuk dirimu beristirahat."
+      ]
+    },
+    {
+      "tag": "dukungan_emosional",
+      "patterns": [
+        "Aku merasa sendirian",
+        "Aku kesepian",
+        "Tidak ada yang peduli padaku",
+        "Aku butuh dukungan"
+      ],
+      "responses": [
+        "Aku di sini untukmu. Kamu tidak sendiri, dan perasaanmu itu valid.",
+        "Cobalah berbicara dengan teman terdekat atau keluargamu. Mereka peduli padamu, seperti aku di sini untukmu.",
+        "Terkadang merasa sendirian itu sulit, tapi percayalah, kamu tidak benar-benar sendiri. Aku mendukungmu sepenuhnya."
+      ]
+    },
+    {
+      "tag": "manajemen_waktu",
+      "patterns": [
+        "Aku kesulitan mengatur waktu",
+        "Bagaimana cara manajemen waktu?",
+        "Saya sering telat mengerjakan tugas",
+        "Manajemen waktu yang baik bagaimana?"
+      ],
+      "responses": [
+        "Buatlah to-do list harian dan prioritas tugas yang paling penting terlebih dahulu.",
+        "Gunakan teknik Pomodoro untuk fokus pada tugas dalam waktu tertentu dan beri jeda istirahat.",
+        "Coba hindari hal-hal yang mengganggu seperti media sosial saat belajar atau bekerja."
+      ]
+    },
+    {
+      "tag": "stres_skripsi",
+      "patterns": [
+        "Saya merasa stres dengan skripsi",
+        "Skripsi saya tidak selesai-selesai",
+        "Bagaimana cara mengatasi stres karena skripsi?",
+        "Saya ingin berhenti mengerjakan skripsi",
+        "Skripsi saya membuat saya tidak bisa tidur"
+      ],
+      "responses": [
+        "Tenang, kamu tidak sendirian. Cobalah bagi waktu pengerjaan skripsi menjadi bagian kecil yang bisa kamu atasi.",
+        "Rasa stres itu wajar. Kamu bisa istirahat sejenak, lalu coba diskusikan masalahmu dengan dosen pembimbing.",
+        "Lakukan hal-hal yang menenangkan seperti meditasi atau olahraga ringan untuk mengurangi stres.",
+        "Skripsi adalah proses, bukan perlombaan. Fokuslah pada progres kecil setiap hari."
+      ]
+    },
+    {
+      "tag": "manajemen_waktu",
+      "patterns": [
+        "Saya kesulitan mengatur waktu",
+        "Bagaimana cara membagi waktu antara skripsi dan istirahat?",
+        "Waktu saya terasa tidak cukup",
+        "Apa tips untuk manajemen waktu?",
+        "Saya bingung membagi waktu untuk belajar dan menyelesaikan skripsi"
+      ],
+      "responses": [
+        "Coba buat jadwal harian dengan alokasi waktu untuk skripsi, istirahat, dan hal lainnya.",
+        "Fokus pada prioritas utama dan hindari multitasking yang berlebihan.",
+        "Gunakan teknik seperti Pomodoro untuk bekerja dengan efisien.",
+        "Pastikan kamu juga menyediakan waktu untuk istirahat dan menjaga kesehatan."
+      ]
+    },
+    {
+      "tag": "dukungan_emosional",
+      "patterns": [
+        "Saya merasa tidak ada yang mendukung saya",
+        "Saya merasa kesepian",
+        "Apa yang harus saya lakukan jika saya merasa sedih?",
+        "Saya butuh motivasi",
+        "Tidak ada yang mengerti saya"
+      ],
+      "responses": [
+        "Kamu berharga dan tidak sendirian. Cobalah untuk berbicara dengan teman atau keluarga terdekat.",
+        "Terkadang berbagi cerita bisa membuat kita merasa lebih baik. Aku di sini jika kamu ingin berbicara.",
+        "Kamu sudah melakukan yang terbaik, jangan terlalu keras pada dirimu sendiri.",
+        "Cari kegiatan yang membuatmu bahagia dan jangan ragu untuk mencari bantuan profesional jika diperlukan."
+      ]
+    },
+    {
+      "tag": "motivasi_akhir",
+      "patterns": [
+        "Aku merasa ingin menyerah",
+        "Kenapa aku harus menyelesaikan ini?",
+        "Apa yang harus aku lakukan jika aku kehilangan semangat?",
+        "Aku tidak yakin bisa menyelesaikan skripsiku",
+        "Aku ingin berhenti"
+      ],
+      "responses": [
+        "Ingat, setiap langkah kecil yang kamu ambil membawa kamu lebih dekat ke tujuan.",
+        "Kamu sudah jauh melangkah, jangan menyerah sekarang. Hasilnya akan sepadan dengan usahamu.",
+        "Ambil jeda sejenak, lalu ingatkan dirimu sendiri mengapa kamu memulai.",
+        "Percayalah, kamu mampu menyelesaikan ini. Fokuslah pada satu hal yang bisa kamu lakukan hari ini."
+      ]
+    },
+    {
+      "tag": "prokrastinasi",
+      "patterns": [
+        "Saya terus menunda-nunda pekerjaan",
+        "Bagaimana cara mengatasi kebiasaan menunda?",
+        "Kenapa saya selalu prokrastinasi?",
+        "Saya kesulitan memulai pekerjaan",
+        "Apa yang harus saya lakukan untuk berhenti menunda?"
+      ],
+      "responses": [
+        "Cobalah untuk memulai dengan tugas kecil. Setelah itu, motivasimu akan meningkat secara perlahan.",
+        "Kenali alasan di balik kebiasaan menunda dan coba atasi satu per satu.",
+        "Buat daftar tugas dan prioritas. Fokus pada satu tugas dalam satu waktu.",
+        "Setelah menyelesaikan satu bagian kecil, beri penghargaan untuk dirimu sendiri."
+      ]
+    },
+    {
+      "tag": "kesehatan_mental",
+      "patterns": [
+        "Saya merasa cemas akhir-akhir ini",
+        "Bagaimana cara menjaga kesehatan mental?",
+        "Apa yang harus dilakukan jika merasa depresi?",
+        "Saya sering merasa khawatir berlebihan",
+        "Kesehatan mental saya tidak baik"
+      ],
+      "responses": [
+        "Luangkan waktu untuk dirimu sendiri dengan melakukan hal-hal yang kamu nikmati.",
+        "Cobalah berbicara dengan seseorang yang kamu percaya tentang apa yang kamu rasakan.",
+        "Jika memungkinkan, konsultasikan perasaanmu dengan psikolog atau konselor profesional.",
+        "Ingat, kesehatan mental sama pentingnya dengan kesehatan fisik. Jangan ragu untuk mencari bantuan."
+      ]
+    },
+    {
+      "tag": "tips_sidang",
+      "patterns": [
+        "Bagaimana cara mempersiapkan sidang skripsi?",
+        "Apa tips agar sidang skripsi berjalan lancar?",
+        "Saya gugup menghadapi sidang",
+        "Sidang skripsi membuat saya stres",
+        "Apa saja yang perlu disiapkan untuk sidang skripsi?"
+      ],
+      "responses": [
+        "Latih presentasimu di depan teman atau keluargamu untuk meningkatkan kepercayaan diri.",
+        "Siapkan materi dengan baik dan pastikan kamu memahami setiap bagian dari skripsimu.",
+        "Tenang dan percaya pada dirimu sendiri. Kamu sudah berusaha keras untuk sampai ke tahap ini.",
+        "Persiapkan jawaban untuk pertanyaan yang kemungkinan besar akan ditanyakan oleh penguji."
+      ]
+    },
+    {
+      "tag": "motivasi_harian",
+      "patterns": [
+        "Beri saya motivasi",
+        "Saya butuh semangat",
+        "Apa kata-kata motivasi untuk hari ini?",
+        "Saya kehilangan motivasi",
+        "Aku ingin sesuatu yang memotivasi"
+      ],
+      "responses": [
+        "Hari ini adalah kesempatan baru untuk mencapai tujuanmu. Jangan menyerah!",
+        "Semua hal besar dimulai dari langkah kecil. Tetaplah melangkah.",
+        "Kamu lebih kuat dari yang kamu kira. Percayalah pada dirimu sendiri!",
+        "Setiap hari adalah peluang untuk belajar dan berkembang. Jangan berhenti mencoba."
+      ]
+    },
+    {
+      "tag": "perencanaan_karir",
+      "patterns": [
+        "Bagaimana saya tahu karir yang cocok untuk saya?",
+        "Apa yang harus saya lakukan setelah lulus?",
+        "Saya bingung menentukan jalan karir",
+        "Bagaimana cara merencanakan karir?",
+        "Karir apa yang sesuai dengan jurusan saya?"
+      ],
+      "responses": [
+        "Coba identifikasi minat dan keterampilanmu, lalu sesuaikan dengan peluang yang ada.",
+        "Diskusikan dengan mentor atau seseorang yang berpengalaman di bidang yang kamu minati.",
+        "Jangan takut mencoba hal baru. Kadang pengalaman bisa membantumu menemukan jalan terbaik.",
+        "Mulailah dengan tujuan jangka pendek, lalu perlahan rencanakan tujuan jangka panjang."
+      ]
+    },
+    {
+      "tag": "kecemasan_ujian",
+      "patterns": [
+        "Saya merasa cemas menjelang ujian",
+        "Bagaimana mengatasi kecemasan sebelum ujian?",
+        "Apa yang harus saya lakukan jika saya merasa cemas?",
+        "Saya takut gagal di ujian"
+      ],
+      "responses": [
+        "Cobalah untuk fokus pada persiapan, bukan pada hasil. Percayalah pada usahamu.",
+        "Lakukan latihan pernapasan atau meditasi untuk menenangkan pikiranmu.",
+        "Ingat, ujian hanyalah sebagian dari perjalanan panjangmu. Fokuslah pada langkah kecil.",
+        "Cobalah tidur yang cukup dan hindari belajar pada saat-saat terakhir agar tidak terburu-buru."
+      ]
+    },
+    {
+      "tag": "sulit_tidur",
+      "patterns": [
+        "Saya kesulitan tidur belakangan ini",
+        "Kenapa saya sulit tidur?",
+        "Bagaimana cara tidur yang nyenyak?",
+        "Apa yang harus dilakukan jika susah tidur?"
+      ],
+      "responses": [
+        "Cobalah untuk menghindari gadget setidaknya satu jam sebelum tidur.",
+        "Rutinitas tidur yang teratur bisa membantu tubuhmu beradaptasi dan tidur lebih nyenyak.",
+        "Relaksasi sebelum tidur, seperti membaca atau mendengarkan musik ringan, bisa membantu.",
+        "Jika masalah tidur berlanjut, pertimbangkan untuk berkonsultasi dengan profesional kesehatan."
+      ]
+    },
+    {
+      "tag": "motivasi_hilang",
+      "patterns": [
+        "Saya merasa tidak termotivasi",
+        "Apa yang bisa saya lakukan untuk menemukan motivasi?",
+        "Saya kehilangan semangat untuk melanjutkan skripsi",
+        "Bagaimana cara menjaga motivasi saat bekerja?"
+      ],
+      "responses": [
+        "Cobalah mengingat kembali alasan mengapa kamu memulai skripsi ini. Fokuskan pada tujuan jangka panjangmu.",
+        "Pecah pekerjaan besar menjadi bagian-bagian kecil yang lebih mudah dikelola.",
+        "Berikan dirimu waktu untuk beristirahat dan lakukan hal-hal yang menyenangkan untuk menyegarkan pikiran.",
+        "Motivasi bisa datang dari lingkungan yang mendukung. Cobalah berbicara dengan teman atau dosen pembimbing."
+      ]
+    },
+    {
+      "tag": "bekerja_vs_studi",
+      "patterns": [
+        "Saya bingung memilih antara bekerja atau melanjutkan studi",
+        "Haruskah saya langsung bekerja setelah lulus?",
+        "Apa yang harus saya lakukan setelah lulus?",
+        "Bagaimana cara menentukan apakah saya harus bekerja atau melanjutkan studi?"
+      ],
+      "responses": [
+        "Coba pikirkan tujuan jangka panjangmu dan apakah melanjutkan studi akan mendukung itu.",
+        "Pertimbangkan untuk mencari pengalaman kerja lebih dulu, kemudian melanjutkan studi jika diperlukan.",
+        "Tanya pada dirimu sendiri, apa yang ingin kamu capai dalam lima atau sepuluh tahun ke depan?",
+        "Berbicara dengan orang yang sudah berpengalaman di bidang yang kamu minati bisa memberi perspektif."
+      ]
+    },
+    {
+      "tag": "mengatur_keuangan",
+      "patterns": [
+        "Saya ingin mengatur keuangan pribadi saya dengan lebih baik",
+        "Bagaimana cara mengelola keuangan dengan baik?",
+        "Apa tips mengatur uang selama kuliah?",
+        "Saya kesulitan mengatur anggaran bulanan"
+      ],
+      "responses": [
+        "Cobalah untuk membuat anggaran bulanan dan tentukan prioritas pengeluaran.",
+        "Pahami pengeluaran bulanan yang penting dan batasi pengeluaran yang tidak perlu.",
+        "Sisihkan sebagian uang untuk tabungan atau dana darurat.",
+        "Jika perlu, pertimbangkan untuk mencari sumber penghasilan tambahan atau diskusi dengan seseorang yang lebih berpengalaman."
+      ]
+    },
+    {
+      "tag": "kelelahan",
+      "patterns": [
+        "Apa yang harus saya lakukan jika merasa terlalu lelah?",
+        "Saya merasa lelah setelah beraktivitas seharian",
+        "Bagaimana cara mengatasi kelelahan mental dan fisik?",
+        "Saya sudah sangat lelah, apa yang harus saya lakukan?"
+      ],
+      "responses": [
+        "Pastikan kamu memberi tubuhmu waktu untuk beristirahat dengan cukup tidur.",
+        "Cobalah untuk melakukan aktivitas relaksasi, seperti meditasi atau peregangan ringan.",
+        "Jangan ragu untuk mengambil waktu sejenak untuk dirimu sendiri, lakukan hal yang menyenangkan.",
+        "Jaga asupan makanan yang bergizi dan cukup air untuk membantu tubuhmu pulih."
+      ]
+    },
+    {
+      "tag": "manajemen_waktu",
+      "patterns": [
+        "Saya merasa tidak punya cukup waktu untuk semuanya",
+        "Bagaimana cara mengatur waktu dengan baik?",
+        "Tugas dan pekerjaan saya menumpuk, bagaimana mengaturnya?",
+        "Saya bingung bagaimana cara mengelola waktu dengan efektif"
+      ],
+      "responses": [
+        "Buatlah to-do list dan tentukan prioritas tugas yang harus diselesaikan.",
+        "Gunakan teknik manajemen waktu seperti teknik Pomodoro untuk lebih fokus.",
+        "Cobalah untuk menghindari multitasking, fokuslah pada satu tugas hingga selesai.",
+        "Jangan lupa untuk memberikan waktu untuk diri sendiri agar tetap produktif dan tidak merasa terbebani."
+      ]
+    },
+    {
+      "tag": "hubungan_teman",
+      "patterns": [
+        "Bagaimana cara saya menjaga hubungan yang sehat dengan teman-teman?",
+        "Saya merasa hubungan dengan teman-teman saya semakin renggang",
+        "Apa tips untuk menjaga hubungan dengan teman-teman saat sibuk kuliah?",
+        "Saya merasa teman-teman saya mulai menjauh, apa yang harus saya lakukan?"
+      ],
+      "responses": [
+        "Cobalah untuk meluangkan waktu bersama teman meskipun hanya sebentar, misalnya ngobrol atau makan bersama.",
+        "Komunikasi yang terbuka sangat penting. Jangan ragu untuk berbicara tentang perasaanmu dengan mereka.",
+        "Hargai waktu dan ruang masing-masing, tapi pastikan kamu tetap menjaga ikatan dan perhatian pada teman-temanmu.",
+        "Jangan terlalu fokus pada tugas atau kuliah sehingga melupakan hubungan sosial yang penting."
+      ]
+    },
+    {
+      "tag": "persiapan_karir",
+      "patterns": [
+        "Saya merasa tidak siap untuk menghadapi dunia kerja",
+        "Apa yang harus saya lakukan untuk mempersiapkan diri menghadapi karir?",
+        "Saya tidak tahu harus mulai dari mana untuk mempersiapkan karir",
+        "Apa yang bisa saya lakukan untuk menghadapi dunia kerja setelah lulus?"
+      ],
+      "responses": [
+        "Mulailah dengan meningkatkan keterampilan yang relevan dengan bidang pekerjaan yang kamu minati.",
+        "Ikutlah pelatihan atau kursus untuk menambah pengetahuan dan keterampilan.",
+        "Bangun jaringan dengan mengikuti acara atau bergabung dalam komunitas profesional.",
+        "Jangan ragu untuk mencari magang atau pengalaman kerja untuk menambah pengalamanmu."
+      ]
+    },
+    {
+      "tag": "skripsi_motivasi",
+      "patterns": [
+        "Saya kesulitan menjaga motivasi untuk menyelesaikan skripsi",
+        "Bagaimana cara agar saya tetap termotivasi menulis skripsi?",
+        "Saya merasa terhambat dalam menyelesaikan skripsi, bagaimana solusinya?",
+        "Saya ingin menyelesaikan skripsi tapi sulit menemukan motivasi"
+      ],
+      "responses": [
+        "Cobalah untuk menetapkan tujuan harian atau mingguan agar bisa memantau kemajuanmu.",
+        "Jangan ragu untuk meminta bantuan atau umpan balik dari dosen pembimbing agar kamu merasa lebih yakin.",
+        "Bergabung dengan kelompok studi atau teman-teman yang juga sedang mengerjakan skripsi bisa meningkatkan semangatmu.",
+        "Fokuslah pada pencapaian kecil dan berikan dirimu penghargaan setelah menyelesaikan setiap tahapan."
+      ]
+    },
+    {
+      "tag": "pilihan_jurusan",
+      "patterns": [
+        "Apa yang harus saya lakukan jika merasa tidak yakin dengan pilihan jurusan?",
+        "Saya ragu dengan jurusan yang saya pilih, bagaimana cara mengatasinya?",
+        "Saya tidak merasa cocok dengan jurusan saya, apa yang harus saya lakukan?",
+        "Apakah saya harus mengganti jurusan karena merasa tidak cocok?"
+      ],
+      "responses": [
+        "Cobalah untuk berbicara dengan dosen pembimbing atau seorang konselor untuk mendapatkan perspektif yang lebih jelas.",
+        "Pertimbangkan apa yang sebenarnya kamu minati dan apakah jurusan yang kamu pilih masih relevan dengan minat tersebut.",
+        "Diskusikan dengan teman-teman atau alumni yang sudah lebih dulu menyelesaikan jurusan tersebut.",
+        "Terkadang waktu dan pengalaman dapat membantu kamu merasa lebih yakin. Tidak ada salahnya untuk memberi kesempatan lebih pada diri sendiri."
+      ]
+    },
+    {
+      "tag": "kecemasan_ujian",
+      "patterns": [
+        "Saya takut tidak lulus ujian",
+        "Apa yang harus saya lakukan agar tidak gagal dalam ujian?",
+        "Ujian saya sudah dekat, bagaimana cara mempersiapkan dengan baik?",
+        "Saya takut tidak lulus ujian akhir semester"
+      ],
+      "responses": [
+        "Buatlah jadwal belajar yang terorganisir dan mulai dari materi yang paling sulit atau yang sering muncul di ujian.",
+        "Gunakan teknik belajar yang berbeda seperti membaca buku, menonton video tutorial, atau berdiskusi dengan teman.",
+        "Pastikan kamu memiliki waktu istirahat yang cukup agar otakmu tetap segar saat ujian.",
+        "Percaya pada dirimu sendiri, lakukan yang terbaik, dan jangan terlalu khawatir."
+      ]
+    },
+    {
+      "tag": "pilihan_karir",
+      "patterns": [
+        "Bagaimana cara menghadapi kebingungan dalam memilih karir?",
+        "Saya bingung mau memilih pekerjaan yang seperti apa setelah lulus",
+        "Apa yang harus saya pertimbangkan dalam memilih pekerjaan setelah kuliah?",
+        "Saya merasa tertekan karena harus segera memilih karir"
+      ],
+      "responses": [
+        "Cobalah untuk mengeksplorasi berbagai bidang pekerjaan yang sesuai dengan minat dan keterampilanmu.",
+        "Pertimbangkan untuk mengikuti magang atau bekerja paruh waktu di bidang yang kamu minati untuk mendapatkan gambaran lebih jelas.",
+        "Bicarakan dengan dosen atau profesional di bidang yang kamu minati untuk mendapatkan saran dan perspektif.",
+        "Tidak perlu terburu-buru, beri diri kamu waktu untuk mengeksplorasi dan memutuskan pilihan karir yang terbaik."
+      ]
+    },
+    {
+      "tag": "keseimbangan_kuliah_dan_sosial",
+      "patterns": [
+        "Saya tidak tahu bagaimana cara menjaga keseimbangan antara kuliah dan kehidupan sosial",
+        "Kuliah saya sangat menyita waktu, saya hampir tidak punya waktu untuk bersosialisasi",
+        "Apa yang harus saya lakukan agar bisa seimbang antara kuliah dan teman?",
+        "Saya merasa kesulitan untuk menyeimbangkan kuliah dengan kehidupan pribadi"
+      ],
+      "responses": [
+        "Cobalah untuk membuat jadwal yang mencakup waktu belajar dan waktu untuk bersosialisasi atau beristirahat.",
+        "Tetap terhubung dengan teman-teman melalui pesan singkat atau media sosial meskipun tidak bisa bertemu langsung.",
+        "Jangan merasa bersalah jika kamu perlu waktu untuk diri sendiri. Menjaga keseimbangan itu penting untuk kesehatan mental.",
+        "Cobalah untuk mengatur waktu dengan bijak agar kamu dapat menyelesaikan tugas kuliah dan tetap menjaga hubungan sosial."
+      ]
+    },
+    {
+      "tag": "persiapan_masa_depan",
+      "patterns": [
+        "Saya merasa takut tidak bisa mencapai tujuan setelah lulus",
+        "Apa yang harus saya lakukan untuk memastikan saya berhasil setelah kuliah?",
+        "Bagaimana cara merencanakan masa depan setelah lulus kuliah?",
+        "Saya khawatir tentang masa depan setelah saya lulus kuliah"
+      ],
+      "responses": [
+        "Rencanakan tujuan jangka pendek dan panjang, mulai dengan menetapkan tujuan yang realistis untuk dicapai setelah lulus.",
+        "Bangun jaringan profesional dan cari peluang magang atau kerja yang sesuai dengan bidang studi kamu.",
+        "Buat daftar keterampilan yang perlu dikembangkan dan usahakan untuk terus belajar, baik di dalam maupun luar kampus.",
+        "Ingat, masa depan bisa berubah dan tidak selalu sesuai rencana, yang penting kamu sudah mempersiapkan diri dengan baik."
+      ]
+    },
+    {
+      "tag": "kecemasan_ujian_akhir",
+      "patterns": [
+        "Saya merasa cemas menghadapi ujian akhir",
+        "Apa yang bisa saya lakukan untuk mengurangi kecemasan ujian?",
+        "Saya takut tidak siap ujian akhir semester",
+        "Bagaimana cara mengatasi kecemasan sebelum ujian?"
+      ],
+      "responses": [
+        "Cobalah untuk berlatih dengan soal-soal latihan agar lebih percaya diri.",
+        "Lakukan pernapasan dalam untuk menenangkan diri, dan jangan ragu untuk mengambil waktu sejenak untuk relaksasi.",
+        "Tetap fokus pada persiapan dan ingat bahwa kamu sudah mempersiapkan dirimu dengan baik.",
+        "Tidur yang cukup dan makan dengan baik akan membantu kamu tetap fokus saat ujian."
+      ]
+    },
+    {
+      "tag": "mengatasi_malas",
+      "patterns": [
+        "Bagaimana cara mengatasi rasa malas saat mengerjakan tugas?",
+        "Saya merasa malas untuk menyelesaikan tugas kuliah",
+        "Apa yang bisa saya lakukan agar tidak menunda-nunda tugas?",
+        "Saya selalu menunda-nunda tugas, bagaimana cara mengatasinya?"
+      ],
+      "responses": [
+        "Cobalah untuk membagi tugas besar menjadi bagian-bagian kecil yang bisa diselesaikan dalam waktu singkat.",
+        "Gunakan teknik Pomodoro: kerjakan selama 25 menit, lalu istirahat selama 5 menit.",
+        "Cari motivasi dengan membayangkan kepuasan setelah menyelesaikan tugas.",
+        "Buatlah jadwal belajar yang realistis dan disiplin untuk mengikuti jadwal tersebut."
+      ]
+    },
+    {
+      "tag": "motivation_kuliah",
+      "patterns": [
+        "Saya merasa tidak termotivasi untuk kuliah",
+        "Apa yang harus saya lakukan jika saya kehilangan semangat untuk kuliah?",
+        "Saya merasa kuliah sudah tidak menarik lagi, bagaimana cara mendapatkan kembali motivasi?",
+        "Bagaimana cara agar saya tetap semangat kuliah?"
+      ],
+      "responses": [
+        "Cobalah untuk mengingat kembali alasan mengapa kamu memilih jurusan ini di awal.",
+        "Tentukan tujuan jangka pendek yang jelas dan rasakan pencapaian kecil setiap kali mencapainya.",
+        "Diskusikan dengan teman-teman atau dosen untuk mendapatkan perspektif baru tentang kuliahmu.",
+        "Jangan ragu untuk mencoba aktivitas baru atau bergabung dengan kegiatan di luar kelas yang bisa menyegarkan semangatmu."
+      ]
+    },
+    {
+      "tag": "mengelola_stres",
+      "patterns": [
+        "Saya merasa stres karena tugas-tugas yang menumpuk",
+        "Bagaimana cara mengelola stres saat banyak tugas yang harus diselesaikan?",
+        "Saya stres karena deadline tugas semakin dekat, bagaimana cara menghadapinya?",
+        "Apa yang harus saya lakukan jika merasa sangat stres dengan kuliah?"
+      ],
+      "responses": [
+        "Prioritaskan tugas berdasarkan deadline dan tingkat kesulitannya, kerjakan satu per satu.",
+        "Ambil waktu untuk diri sendiri, seperti berjalan-jalan atau meditasi, untuk menyegarkan pikiran.",
+        "Bicarakan perasaanmu dengan teman atau keluarga, kadang berbagi bisa membuatmu merasa lebih baik.",
+        "Jangan terlalu keras pada diri sendiri. Berikan penghargaan untuk setiap tugas yang selesai."
+      ]
+    },
+    {
+      "tag": "mengatasi_kesepian",
+      "patterns": [
+        "Saya merasa kesepian di kampus",
+        "Bagaimana cara mengatasi rasa kesepian di kampus?",
+        "Saya merasa tidak ada teman dekat di kampus, apa yang harus saya lakukan?",
+        "Apa yang bisa saya lakukan jika merasa kesepian di kampus?"
+      ],
+      "responses": [
+        "Cobalah untuk lebih aktif dalam kegiatan organisasi atau komunitas di kampus, di sana kamu bisa bertemu orang baru.",
+        "Jangan takut untuk mulai membuka diri, banyak mahasiswa lain yang juga merasa seperti itu.",
+        "Buatlah rencana untuk bertemu dengan teman-teman lama atau membuat pertemuan sosial kecil-kecilan.",
+        "Bergabunglah dengan kelas atau kegiatan yang sesuai dengan minatmu untuk bertemu orang dengan minat yang sama."
+      ]
+    },
+    {
+      "tag": "memecah_rutinitas",
+      "patterns": [
+        "Saya merasa terjebak dalam rutinitas yang sama",
+        "Bagaimana cara mengubah rutinitas agar lebih produktif?",
+        "Saya merasa tidak berkembang karena rutinitas yang monoton, apa yang harus saya lakukan?",
+        "Apa yang bisa saya lakukan untuk memecah rutinitas saya?"
+      ],
+      "responses": [
+        "Cobalah untuk menambah variasi dalam kegiatan sehari-hari, seperti mencoba belajar dengan cara baru atau bergabung dengan kegiatan baru.",
+        "Tentukan waktu untuk melakukan hal-hal yang menyenangkan di luar rutinitas, seperti berolahraga atau mengikuti hobi.",
+        "Berikan ruang untuk perubahan, seperti menambah waktu untuk refleksi diri atau berkenalan dengan orang baru.",
+        "Jangan ragu untuk menyusun ulang jadwal atau rutinitas yang lebih menantang agar bisa lebih berkembang."
+      ]
+    },
+    {
+      "tag": "judul_skripsi",
+      "patterns": [
+        "Saya kesulitan mencari judul skripsi",
+        "Bagaimana cara menentukan judul skripsi?",
+        "Saya bingung memilih topik skripsi",
+        "Apa yang harus saya lakukan untuk menemukan judul skripsi?"
+      ],
+      "responses": [
+        "Cobalah untuk memilih topik yang kamu minati dan relevan dengan jurusanmu. Diskusikan dengan dosen pembimbing untuk mendapatkan ide yang lebih jelas.",
+        "Tanyakan pada teman-teman atau dosen mengenai tren penelitian terbaru di bidangmu. Hal ini bisa membantumu menemukan ide yang segar.",
+        "Carilah referensi dari jurnal atau buku untuk menemukan celah atau topik yang belum banyak diteliti.",
+        "Pilihlah topik yang tidak hanya menarik, tetapi juga memungkinkan untuk diteliti dalam waktu yang terbatas."
+      ]
+    },
+    {
+      "tag": "memulai_skripsi",
+      "patterns": [
+        "Saya tidak tahu bagaimana cara memulai skripsi",
+        "Apa langkah pertama yang harus saya lakukan untuk memulai skripsi?",
+        "Bagaimana cara memulai penelitian skripsi?",
+        "Langkah awal apa yang perlu saya lakukan untuk mulai menulis skripsi?"
+      ],
+      "responses": [
+        "Mulailah dengan memahami format skripsi yang ditentukan oleh kampus dan mencari tahu tentang metodologi yang tepat untuk topikmu.",
+        "Tentukan dulu tujuan penelitian dan rumusan masalah yang akan kamu bahas. Ini akan menjadi panduan untuk seluruh proses penelitianmu.",
+        "Buatlah rencana penelitian yang jelas, termasuk pembagian waktu"
+      ]
+    },
+    {
+      "tag": "proposal",
+      "patterns": [
+        "Saya kesulitan membuat proposal skripsi",
+        "Bagaimana cara menulis proposal skripsi yang baik?",
+        "Apa yang harus dimasukkan dalam proposal skripsi?",
+        "Saya tidak tahu harus mulai menulis proposal dari mana"
+      ],
+      "responses": [
+        "Pastikan proposalmu mencakup latar belakang, tujuan penelitian, rumusan masalah, tinjauan pustaka, dan metodologi penelitian.",
+        "Jangan ragu untuk meminta feedback dari dosen pembimbing setelah menyusun proposal untuk memastikan kamu berada di jalur yang tepat.",
+        "Proposal yang baik harus dapat menjelaskan dengan jelas masalah yang akan diteliti, alasan pentingnya penelitian, dan cara-cara yang akan digunakan untuk mengumpulkan dan menganalisis data.",
+        "Mulailah dengan menyusun outline atau kerangka proposal terlebih dahulu sebelum menulisnya secara detail."
+      ]
+    },
+    {
+      "tag": "mengumpulkan_data",
+      "patterns": [
+        "Saya kesulitan dalam mengumpulkan data untuk skripsi",
+        "Apa yang harus saya lakukan jika kesulitan mengumpulkan data untuk penelitian?",
+        "Bagaimana cara mencari data untuk skripsi?",
+        "Saya tidak tahu harus mencari data skripsi di mana"
+      ],
+      "responses": [
+        "Jika data yang kamu butuhkan bersifat kuantitatif, coba lakukan survei atau eksperimen. Untuk data kualitatif, kamu bisa mengadakan wawancara atau diskusi kelompok.",
+        "Manfaatkan berbagai sumber data yang ada, seperti database akademik, jurnal ilmiah, dan lembaga penelitian yang relevan.",
+        "Cobalah untuk mendekati industri atau praktisi di bidang yang relevan dengan topik penelitianmu untuk mendapatkan data yang lebih nyata.",
+        "Bergantung pada metodologi yang kamu pilih, pertimbangkan untuk menggunakan data sekunder yang sudah tersedia di laporan penelitian atau publikasi sebelumnya."
+      ]
+    },
+    {
+      "tag": "deadline_skripsi",
+      "patterns": [
+        "Saya merasa terhambat dengan deadline skripsi",
+        "Bagaimana cara mengatasi stres karena deadline skripsi?",
+        "Apa yang harus saya lakukan jika sudah dekat deadline skripsi?",
+        "Saya merasa tertekan dengan waktu yang terbatas untuk menyelesaikan skripsi"
+      ],
+      "responses": [
+        "Buatlah rencana kerja yang realistis dan bagi tugas besar menjadi bagian kecil yang bisa diselesaikan setiap hari.",
+        "Jika merasa tertekan, ambil waktu untuk diri sendiri beberapa menit untuk menyegarkan pikiran. Beristirahat sejenak bisa meningkatkan produktivitasmu.",
+        "Fokus pada satu bagian skripsi pada satu waktu, jangan terlalu khawatir dengan bagian lain yang belum selesai.",
+        "Diskusikan dengan dosen pembimbing mengenai perkembangan skripsimu, dan pastikan untuk mendapatkan feedback untuk mempercepat penyelesaian."
+      ]
+    },
+    {
+      "tag": "menganalisis_data_skripsi",
+      "patterns": [
+        "Saya kesulitan dalam menganalisis data skripsi",
+        "Bagaimana cara menganalisis data skripsi dengan benar?",
+        "Saya tidak tahu cara menganalisis data penelitian skripsi",
+        "Apa metode analisis yang bisa digunakan untuk skripsi?"
+      ],
+      "responses": [
+        "Pertama, pastikan kamu memilih metode analisis yang sesuai dengan jenis data dan tujuan penelitian. Misalnya, jika data kuantitatif, gunakan statistik deskriptif atau inferensial.",
+        "Jika data kualitatif, pertimbangkan untuk menggunakan analisis tematik atau analisis konten untuk menilai pola yang muncul.",
+        "Jangan ragu untuk berkonsultasi dengan dosen pembimbing atau ahli statistik jika kamu merasa kesulitan dengan analisis data.",
+        "Gunakan software statistik seperti SPSS, R, atau Python untuk membantu mengolah dan menganalisis data secara lebih efisien."
+      ]
+    },
+    {
+      "tag": "penulisan_bab_hasil",
+      "patterns": [
+        "Saya kesulitan menulis bab hasil dan pembahasan skripsi",
+        "Bagaimana cara menulis bab hasil dan pembahasan skripsi?",
+        "Apa yang harus saya masukkan dalam bab hasil dan pembahasan?",
+        "Saya tidak tahu bagaimana cara menjelaskan hasil penelitian dalam skripsi"
+      ],
+      "responses": [
+        "Pastikan untuk menyajikan hasil penelitian secara jelas dan terstruktur, dengan menyertakan tabel atau grafik jika diperlukan untuk menggambarkan data.",
+        "Di bagian pembahasan, hubungkan hasil yang ditemukan dengan teori atau penelitian sebelumnya. Jelaskan implikasi hasil dan bagaimana hasil tersebut menjawab rumusan masalah.",
+        "Bersikap objektif dan hindari berlebihan dalam membuat kesimpulan. Hasil yang kamu temukan harus didasarkan pada data yang ada.",
+        "Jangan lupa untuk membandingkan hasil penelitianmu dengan hasil penelitian lain yang relevan untuk memberikan perspektif yang lebih luas."
+      ]
+    },
+    {
+      "tag": "mencari_referensi",
+      "patterns": [
+        "Saya kesulitan mencari referensi untuk skripsi",
+        "Di mana saya bisa mencari referensi jurnal untuk skripsi?",
+        "Bagaimana cara mencari referensi yang relevan untuk skripsi?",
+        "Apa yang harus saya lakukan jika tidak menemukan referensi untuk skripsi?"
+      ],
+      "responses": [
+        "Kamu bisa mencari referensi melalui database akademik seperti Google Scholar, JSTOR, atau ProQuest. Gunakan kata kunci yang tepat sesuai dengan topik penelitianmu.",
+        "Periksa perpustakaan digital universitasmu untuk menemukan e-jurnal yang relevan dengan topikmu. Jika tidak ada, kamu bisa mencoba mengaksesnya melalui jurnal yang terbuka (open access).",
+        "Cobalah untuk mencari referensi dari buku-buku atau artikel yang lebih umum yang relevan dengan topikmu. Ini bisa membantu memperluas perspektif dalam penelitian.",
+        "Jangan ragu untuk mendiskusikan dengan dosen pembimbing atau teman yang lebih berpengalaman. Mereka mungkin bisa memberikan saran tentang sumber yang bisa kamu gunakan."
+      ]
+    },
+    {
+      "tag": "menulis_bab_pendahuluan",
+      "patterns": [
+        "Saya tidak tahu cara menulis bab pendahuluan skripsi",
+        "Bagaimana cara menulis pendahuluan skripsi yang baik?",
+        "Apa saja yang harus ada dalam pendahuluan skripsi?",
+        "Bagaimana cara menjelaskan latar belakang di pendahuluan skripsi?"
+      ],
+      "responses": [
+        "Pendahuluan skripsi biasanya dimulai dengan latar belakang masalah yang menjelaskan pentingnya penelitianmu dan mengapa topik tersebut relevan untuk diteliti.",
+        "Selain latar belakang, pendahuluan juga mencakup rumusan masalah, tujuan penelitian, dan manfaat penelitian. Ini membantu pembaca memahami konteks dan alasan penelitian dilakukan.",
+        "Jelaskan juga ruang lingkup penelitian yang akan kamu lakukan, serta alasan mengapa penelitian ini penting dan dapat memberikan kontribusi bagi bidang ilmu tersebut.",
+        "Gunakan data atau temuan dari penelitian sebelumnya untuk mendukung argumenmu. Ini juga menunjukkan bahwa kamu sudah memahami literatur yang ada."
+      ]
+    },
+    {
+      "tag": "menyusun_daftar_pustaka",
+      "patterns": [
+        "Saya kesulitan menyusun daftar pustaka",
+        "Bagaimana cara menyusun daftar pustaka yang benar?",
+        "Apa format penulisan daftar pustaka yang tepat untuk skripsi?",
+        "Bagaimana cara mengutip referensi dalam skripsi?"
+      ],
+      "responses": [
+        "Pastikan kamu mengikuti gaya penulisan referensi yang ditentukan oleh universitasmu, seperti APA, MLA, atau Chicago. Setiap gaya penulisan memiliki aturan yang berbeda untuk menyusun daftar pustaka.",
+        "Gunakan alat bantu seperti Mendeley atau Zotero untuk membantu mengatur referensimu. Alat ini juga dapat membantu kamu mengutip referensi langsung dalam dokumen skripsimu.",
+        "Setiap referensi yang digunakan dalam skripsi harus tercatat dengan lengkap, mencakup nama penulis, tahun terbit, judul artikel/buku, penerbit, dan halaman yang relevan.",
+        "Jika mengutip secara langsung, pastikan untuk menggunakan tanda kutip dan mencantumkan nomor halaman. Jika menggunakan parafrase, tetap cantumkan sumbernya."
+      ]
+    },
+    {
+      "tag": "menganalisis_data_SPSS",
+      "patterns": [
+        "Saya tidak tahu cara menganalisis data menggunakan SPSS",
+        "Bagaimana cara menggunakan SPSS untuk analisis data?",
+        "Apa langkah-langkah untuk analisis data skripsi dengan SPSS?",
+        "Saya kesulitan menggunakan SPSS untuk skripsi"
+      ],
+      "responses": [
+        "SPSS adalah alat statistik yang sangat berguna untuk analisis data kuantitatif. Mulailah dengan menginput data ke dalam SPSS, pastikan setiap variabel sudah sesuai dengan format yang benar.",
+        "Jika kamu ingin melakukan analisis deskriptif, pilih menu 'Analyze' > 'Descriptive Statistics' dan pilih variabel yang ingin dianalisis.",
+        "Untuk uji statistik seperti uji t atau ANOVA, pilih menu 'Analyze' > 'Compare Means' atau 'General Linear Model' dan pilih uji yang sesuai dengan desain penelitianmu.",
+        "Jangan ragu untuk mencari tutorial online atau meminta bantuan dari dosen pembimbing yang memiliki pengalaman dalam menggunakan SPSS."
+      ]
+    },
+    {
+      "tag": "menulis_bab_metodologi",
+      "patterns": [
+        "Saya kesulitan menulis bab metodologi skripsi",
+        "Apa yang harus saya tulis di bab metodologi skripsi?",
+        "Bagaimana cara menulis bagian metodologi dalam skripsi?",
+        "Bab metodologi itu tentang apa?"
+      ],
+      "responses": [
+        "Bab metodologi menjelaskan bagaimana cara kamu mengumpulkan data dan menganalisisnya. Mulailah dengan menjelaskan jenis penelitian yang kamu lakukan (kuantitatif, kualitatif, atau campuran).",
+        "Jelaskan metode pengumpulan data yang digunakan, apakah melalui survei, wawancara, observasi, atau eksperimen. Jelaskan juga alasan mengapa metode tersebut dipilih.",
+        "Deskripsikan teknik analisis yang digunakan, apakah menggunakan analisis statistik, analisis tematik, atau teknik lainnya. Jangan lupa jelaskan alasan di balik pemilihan metode analisis tersebut.",
+        "Jika menggunakan instrumen pengumpulan data, seperti kuesioner atau wawancara, jelaskan desainnya dan cara pengujiannya."
+      ]
+    },
+    {
+      "tag": "menulis_kesimpulan",
+      "patterns": [
+        "Saya kesulitan menulis bab kesimpulan skripsi",
+        "Apa yang harus saya tulis di bab kesimpulan?",
+        "Bagaimana cara menulis kesimpulan untuk skripsi?",
+        "Apa yang harus ada di bab kesimpulan skripsi?"
+      ],
+      "responses": [
+        "Bab kesimpulan berisi ringkasan dari hasil penelitian yang telah dilakukan. Di sini, kamu akan menarik kesimpulan dari hasil yang sudah dibahas sebelumnya.",
+        "Selain menyimpulkan hasil penelitian, kamu juga harus memberikan saran atau rekomendasi berdasarkan temuan yang ada.",
+        "Jelaskan kontribusi penelitianmu terhadap pengembangan ilmu pengetahuan dan aplikasi praktis yang mungkin bermanfaat di bidang terkait.",
+        "Pastikan kesimpulanmu singkat dan jelas, tanpa mengulang informasi yang telah disampaikan di bab-bab sebelumnya."
+      ]
+    },
+    {
+      "tag": "plagiarisme",
+      "patterns": [
+        "Bagaimana cara menghindari plagiarisme dalam skripsi?",
+        "Apa yang bisa saya lakukan untuk mencegah plagiarisme?",
+        "Bagaimana cara mengetahui jika ada plagiarisme di skripsi?",
+        "Apa yang harus saya lakukan jika terkena plagiarisme?"
+      ],
+      "responses": [
+        "Untuk menghindari plagiarisme, pastikan setiap kutipan atau parafrase dilengkapi dengan referensi yang tepat. Gunakan tanda kutip jika mengambil kutipan langsung dari sumber.",
+        "Gunakan alat pengecek plagiarisme seperti Turnitin atau Grammarly untuk memastikan bahwa skripsimu bebas dari plagiarisme.",
+        "Perhatikan juga pemilihan kata dalam paraphrasing. Jangan hanya mengganti beberapa kata, tapi pastikan untuk mengubah struktur kalimat secara keseluruhan.",
+        "Jika ditemukan plagiarisme, segera perbaiki bagian yang terdeteksi dan pastikan untuk mencantumkan referensi dengan benar di seluruh dokumen."
+      ]
+    },
+    {
+      "tag": "ujian_skripsi",
+      "patterns": [
+        "Saya ingin tahu cara mempertahankan skripsi di depan dosen",
+        "Bagaimana cara mempersiapkan presentasi skripsi?",
+        "Apa yang harus saya siapkan untuk ujian skripsi?",
+        "Bagaimana cara menghadapi ujian skripsi dengan percaya diri?"
+      ],
+      "responses": [
+        "Persiapkan presentasi dengan baik. Mulailah dengan menjelaskan tujuan penelitian, metodologi yang digunakan, hasil yang ditemukan, dan kesimpulan dari penelitian.",
+        "Latihan presentasi di depan teman atau keluarga agar lebih percaya diri. Pastikan presentasi singkat, padat, dan jelas.",
+        "Siapkan jawaban untuk pertanyaan yang mungkin muncul. Dosen biasanya akan bertanya tentang alasan pemilihan metodologi, kesulitan yang dihadapi, dan kontribusi penelitian.",
+        "Jangan gugup saat ujian. Tenangkan diri dan fokus pada penjelasan hasil penelitianmu. Dosen ingin melihat pemahamanmu terhadap penelitian, bukan hanya hafalan."
+      ]
+    },
+    {
+      "tag": "topik_skripsi",
+      "patterns": [
+        "Saya bingung memilih topik untuk skripsi",
+        "Bagaimana cara memilih topik yang tepat untuk skripsi?",
+        "Apa yang harus saya pertimbangkan saat memilih topik skripsi?",
+        "Bagaimana cara memulai riset untuk skripsi?"
+      ],
+      "responses": [
+        "Memilih topik yang tepat sangat penting. Cobalah untuk memilih topik yang sesuai dengan minat dan kemampuanmu, serta yang memiliki ruang untuk penelitian lebih lanjut.",
+        "Selain minat pribadi, pastikan topik yang kamu pilih relevan dengan perkembangan ilmu pengetahuan dan bisa memberikan kontribusi. Diskusikan dengan dosen pembimbing untuk mendapatkan masukan.",
+        "Jika masih bingung, kamu bisa mengeksplorasi jurnal-jurnal terbaru dan mencari celah atau topik yang belum banyak dibahas. Ini bisa menjadi peluang riset yang menarik.",
+        "Mulailah dengan membaca literatur yang relevan dengan bidang studi yang kamu minati. Ini bisa memberimu gambaran tentang topik-topik yang sedang berkembang."
+      ]
+    },
+    {
+      "tag": "proposal_skripsi",
+      "patterns": [
+        "Saya tidak tahu bagaimana membuat proposal skripsi",
+        "Apa yang harus saya masukkan dalam proposal skripsi?",
+        "Bagaimana cara menulis proposal skripsi yang baik?",
+        "Apa yang perlu ada di dalam proposal skripsi?"
+      ],
+      "responses": [
+        "Proposal skripsi harus mencakup beberapa bagian penting seperti latar belakang masalah, rumusan masalah, tujuan penelitian, dan manfaat penelitian.",
+        "Jangan lupa untuk menjelaskan metodologi penelitian yang akan digunakan, baik itu kuantitatif, kualitatif, atau campuran. Detailkan juga instrumen yang akan digunakan dalam pengumpulan data.",
+        "Tuliskan juga tinjauan pustaka yang menjelaskan penelitian-penelitian sebelumnya yang relevan dengan topik kamu, serta teori yang akan menjadi dasar penelitianmu.",
+        "Pastikan proposal skripsimu jelas dan mudah dipahami. Proposal ini adalah panduan untuk penelitianmu, jadi penting untuk mendeskripsikan dengan rinci bagaimana penelitian akan dilakukan."
+      ]
+    },
+    {
+      "tag": "mengumpulkan_data",
+      "patterns": [
+        "Saya kesulitan dalam mendata dan mengumpulkan data untuk skripsi",
+        "Bagaimana cara mengumpulkan data untuk skripsi?",
+        "Apa saja teknik pengumpulan data yang tepat untuk skripsi?",
+        "Saya bingung memilih metode pengumpulan data yang sesuai"
+      ],
+      "responses": [
+        "Pengumpulan data dapat dilakukan melalui berbagai metode seperti survei, wawancara, observasi, atau eksperimen. Pilih metode yang sesuai dengan tujuan dan jenis penelitianmu.",
+        "Jika penelitianmu bersifat kuantitatif, kamu bisa menggunakan kuesioner atau survei untuk mengumpulkan data. Pastikan desain kuesionernya jelas dan mudah dipahami responden.",
+        "Untuk penelitian kualitatif, wawancara mendalam bisa menjadi pilihan yang baik. Wawancara dapat membantu kamu mendapatkan data yang lebih mendalam mengenai topik yang diteliti.",
+        "Selain itu, observasi langsung juga bisa menjadi metode yang efektif, terutama jika penelitianmu berfokus pada perilaku atau fenomena yang dapat diamati."
+      ]
+    },
+    {
+      "tag": "analisis_data",
+      "patterns": [
+        "Bagaimana cara mengatasi kesulitan dalam analisis data skripsi?",
+        "Saya kesulitan menganalisis data hasil penelitian",
+        "Apa yang harus saya lakukan jika saya kesulitan memahami hasil analisis data?",
+        "Bagaimana cara menganalisis data dengan SPSS atau software lain?"
+      ],
+      "responses": [
+        "Jika kamu kesulitan dalam menganalisis data, pertama-tama pastikan bahwa data yang kamu kumpulkan sudah benar dan siap untuk dianalisis. Periksa kembali data yang hilang atau tidak sesuai.",
+        "Jika menggunakan SPSS, kamu bisa mulai dengan analisis deskriptif untuk melihat gambaran umum dari data yang kamu punya. Pastikan untuk memeriksa distribusi data dan memilih uji statistik yang sesuai.",
+        "Jika kamu kesulitan dalam menentukan metode analisis, coba diskusikan dengan dosen pembimbingmu. Mereka biasanya bisa memberikan saran yang lebih sesuai dengan tujuan penelitianmu.",
+        "Jangan takut untuk mencoba teknik analisis yang berbeda. Terkadang, software statistik seperti SPSS atau R bisa memberikan insight baru yang lebih jelas untuk penelitianmu."
+      ]
+    },
+    {
+      "tag": "validasi_data",
+      "patterns": [
+        "Saya tidak yakin dengan validitas data yang saya kumpulkan",
+        "Bagaimana cara memvalidasi data untuk skripsi?",
+        "Apakah data saya valid untuk analisis?",
+        "Bagaimana cara memastikan data yang saya kumpulkan benar?"
+      ],
+      "responses": [
+        "Untuk memastikan validitas data, kamu bisa menggunakan teknik validasi seperti validasi isi (content validity) atau validasi konstruk (construct validity), tergantung jenis penelitian yang kamu lakukan.",
+        "Cek kembali instrumen pengumpulan data yang kamu gunakan, seperti kuesioner atau wawancara. Pastikan bahwa instrumen tersebut memang mengukur apa yang seharusnya diukur.",
+        "Jika menggunakan kuesioner, kamu bisa meminta feedback dari beberapa orang yang mengerti topik penelitian untuk memastikan bahwa pertanyaan yang diajukan sudah jelas dan relevan.",
+        "Selain itu, coba lakukan uji coba instrumen pada sejumlah kecil sampel sebelum melakukan pengumpulan data secara luas untuk melihat apakah instrumen tersebut valid."
+      ]
+    },
+    {
+      "tag": "bab_hasil_dan_pembahasan",
+      "patterns": [
+        "Saya kesulitan menulis bab hasil dan pembahasan skripsi",
+        "Apa yang harus saya tulis di bab hasil dan pembahasan?",
+        "Bagaimana cara menulis bab hasil penelitian skripsi?",
+        "Apa yang harus saya lakukan di bagian pembahasan skripsi?"
+      ],
+      "responses": [
+        "Di bab hasil, kamu harus menyajikan temuan penelitianmu secara objektif dan terstruktur. Gunakan tabel, grafik, atau diagram untuk mempermudah pembaca memahami data yang disajikan.",
+        "Di bagian pembahasan, jelaskan temuan-temuan tersebut dan hubungkan dengan teori atau penelitian sebelumnya yang relevan. Jelaskan juga mengapa temuan tersebut penting dan bagaimana kontribusinya terhadap bidang studi.",
+        "Jangan hanya merangkum hasil. Cobalah untuk memberikan penjelasan lebih mendalam tentang makna dari setiap hasil yang diperoleh dan kaitkan dengan pertanyaan penelitianmu.",
+        "Jelaskan juga keterbatasan dari penelitian yang kamu lakukan dan bagaimana keterbatasan tersebut bisa mempengaruhi hasil atau kesimpulan yang ditarik."
+      ]
+    },
+    {
+      "tag": "mengelola_stress_dan_waktu",
+      "patterns": [
+        "Saya merasa stres dengan deadline skripsi yang mendekat",
+        "Bagaimana cara mengelola waktu untuk menyelesaikan skripsi?",
+        "Apa yang harus saya lakukan jika saya merasa tertekan dengan skripsi?",
+        "Saya kesulitan mengatur waktu untuk skripsi"
+      ],
+      "responses": [
+        "Mengelola waktu dengan baik adalah kunci untuk menyelesaikan skripsi tepat waktu. Cobalah untuk membuat jadwal harian atau mingguan yang mengalokasikan waktu khusus untuk menulis skripsi.",
+        "Buatlah to-do list untuk setiap bagian skripsi yang harus kamu selesaikan, mulai dari menulis bab pendahuluan hingga analisis data. Dengan membuat rencana yang jelas, kamu bisa menghindari stres mendekati deadline.",
+        "Jangan ragu untuk meminta dukungan dari teman atau dosen pembimbing. Terkadang, berbicara dengan seseorang yang mengerti bisa membantu mengurangi tekanan.",
+        "Jika merasa terlalu terbebani, coba luangkan waktu untuk beristirahat dan melakukan kegiatan yang menyegarkan. Kesehatan mental sangat penting dalam menyelesaikan skripsi dengan baik."
+      ]
+    },
+    {
+      "tag": "kritik_dosen",
+      "patterns": [
+        "Apa yang harus saya lakukan jika tidak setuju dengan komentar dosen pembimbing?",
+        "Dosen saya memberikan kritik yang keras, bagaimana cara menanggapinya?",
+        "Bagaimana cara menghadapi kritik dari dosen pembimbing?",
+        "Saya merasa komentar dosen pembimbing tidak fair"
+      ],
+      "responses": [
+        "Kritik dari dosen pembimbing bisa sangat membantu untuk meningkatkan kualitas skripsimu. Meskipun terkadang terasa keras, coba lihat kritik tersebut sebagai saran untuk memperbaiki karya kamu.",
+        "Diskusikan komentar atau kritik dosen secara terbuka. Jika ada bagian yang kurang jelas atau kamu merasa kritik tersebut tidak adil, bicarakan dengan cara yang sopan dan konstruktif.",
+        "Jika perlu, kamu bisa meminta penjelasan lebih lanjut tentang kritik yang diberikan. Terkadang, klarifikasi bisa membantu kamu memahami apa yang perlu diperbaiki.",
+        "Ingat, dosen pembimbing ingin kamu sukses. Kritik mereka seringkali bertujuan untuk membuat skripsimu lebih baik dan memenuhi standar akademik yang tinggi."
+      ]
+    },
+    {
+      "tag": "motivasi_skripsi",
+      "patterns": [
+        "Saya merasa tidak bisa menyelesaikan skripsi",
+        "Saya terlalu banyak masalah dalam mengerjakan skripsi",
+        "Bagaimana cara tetap semangat dalam mengerjakan skripsi?",
+        "Saya merasa tidak bisa menyelesaikan skripsi tepat waktu"
+      ],
+      "responses": [
+        "Jangan menyerah! Ingat bahwa setiap langkah kecil yang kamu ambil membawa kamu lebih dekat ke tujuan akhir. Proses ini tidak mudah, tapi pasti ada hasil yang akan kamu banggakan.",
+        "Setiap mahasiswa pasti pernah merasa seperti ini. Cobalah untuk membagi pekerjaan besar menjadi bagian-bagian kecil, dan selesaikan satu per satu. Dengan begitu, skripsimu akan terasa lebih ringan.",
+        "Cari dukungan dari teman atau keluarga. Terkadang, berbicara dengan orang yang mengerti bisa memberi kamu semangat dan motivasi untuk terus melangkah.",
+        "Ambil waktu sejenak untuk beristirahat, kemudian kembali ke pekerjaanmu dengan pikiran yang lebih segar. Kamu pasti bisa menyelesaikannya!"
+      ]
+    },
+    {
+      "tag": "takut_gagal",
+      "patterns": [
+        "Saya merasa takut gagal dengan skripsi saya",
+        "Saya khawatir skripsi saya tidak diterima",
+        "Apa yang harus saya lakukan jika saya takut gagal dalam skripsi?",
+        "Saya takut hasil skripsi saya tidak memuaskan"
+      ],
+      "responses": [
+        "Rasa takut adalah hal yang wajar, tetapi jangan biarkan itu menghalangimu. Ingat, setiap orang pasti pernah mengalami kegagalan di suatu titik, namun itu adalah bagian dari proses belajar.",
+        "Fokus pada usaha terbaikmu, bukan pada hasil akhirnya. Yang terpenting adalah kamu sudah memberikan yang terbaik dari dirimu. Skripsi adalah perjalanan, bukan hanya tujuan akhir.",
+        "Jika merasa takut atau cemas, coba ingat kembali tujuan kamu menulis skripsi ini. Fokus pada alasan mengapa kamu memulainya dan apa yang ingin kamu capai. Kamu pasti bisa melewati ini!",
+        "Tanyakan pada dosen pembimbingmu jika ada bagian yang membingungkan. Mereka di sini untuk membantu kamu, dan umpan balik mereka bisa membuat kamu merasa lebih yakin."
+      ]
+    },
+    {
+      "tag": "motivasi_untuk_menulis",
+      "patterns": [
+        "Saya merasa tidak termotivasi untuk melanjutkan skripsi",
+        "Bagaimana cara menjaga semangat untuk menulis skripsi?",
+        "Saya kehabisan ide untuk mengembangkan skripsi",
+        "Saya merasa malas melanjutkan skripsi"
+      ],
+      "responses": [
+        "Cobalah untuk mengingat kembali alasan kenapa kamu memilih topik ini. Jika kamu merasa kurang termotivasi, beristirahatlah sejenak dan lakukan sesuatu yang menyegarkan pikiranmu, seperti berjalan-jalan atau berbicara dengan teman.",
+        "Bagi skripsimu menjadi bagian-bagian yang lebih kecil, dan setel tujuan harian. Selesaikan satu bagian dan rayakan pencapaian kecil itu! Setiap langkah kecil berarti maju.",
+        "Ingatlah bahwa tidak ada yang mudah, dan kamu pasti bisa melewati tantangan ini. Jangan ragu untuk meminta bantuan atau bertanya kepada dosen atau teman sekelas yang sudah lebih dulu menyelesaikan skripsi mereka.",
+        "Kadang, motivasi datang dengan melihat kemajuan kecil. Cobalah untuk menulis atau mengerjakan bagian skripsi sedikit demi sedikit, dan lihat betapa jauh kamu sudah melangkah."
+      ]
+    },
+    {
+      "tag": "bingung_memulai_skripsi",
+      "patterns": [
+        "Saya merasa kesulitan dan tidak tahu harus mulai dari mana",
+        "Bagaimana cara memulai skripsi jika saya bingung?",
+        "Saya merasa terjebak dan tidak tahu langkah selanjutnya",
+        "Saya tidak tahu harus memulai skripsi darimana"
+      ],
+      "responses": [
+        "Langkah pertama adalah memahami bahwa setiap orang pernah merasa bingung di awal. Mulailah dengan menulis draf kasar untuk bab pendahuluan atau tujuan penelitian, ini bisa memberi arah pada penelitianmu.",
+        "Jangan takut untuk memulai. Tulis saja apa yang kamu pikirkan sekarang, meski tidak sempurna. Fokus pada proses, dan kamu akan menemukan jalan keluar dari kebingungannya.",
+        "Jika kamu merasa terjebak, diskusikan dengan dosen pembimbingmu atau teman sekelas yang lebih berpengalaman. Mereka bisa memberikan perspektif baru atau saran yang sangat berharga.",
+        "Terkadang, hal yang paling sulit adalah memulai. Cobalah untuk menetapkan waktu tertentu setiap hari untuk menulis. Ini akan membantumu membangun momentum."
+      ]
+    },
+    {
+      "tag": "rasa_tidak_yakin_diri",
+      "patterns": [
+        "Saya merasa tidak yakin dengan kemampuan saya untuk menulis skripsi",
+        "Saya khawatir tidak bisa menulis skripsi dengan baik",
+        "Bagaimana jika saya tidak bisa menulis skripsi yang bagus?",
+        "Saya merasa tidak cukup pintar untuk menulis skripsi"
+      ],
+      "responses": [
+        "Kamu sudah berada di sini, itu adalah langkah besar! Semua orang mulai dari suatu tempat dan belajar sepanjang perjalanan. Jangan ragu dengan kemampuanmu – kamu pasti bisa!",
+        "Ingat, skripsi bukan tentang menjadi sempurna, tetapi tentang memberikan kontribusi ilmiah. Fokus pada upaya terbaik yang kamu bisa berikan.",
+        "Terkadang perasaan tidak yakin datang ketika kita ingin menyelesaikan segalanya sekaligus. Cobalah untuk menulis sedikit demi sedikit, dan jangan terlalu keras pada dirimu sendiri.",
+        "Tidak ada yang langsung sempurna. Skripsi adalah proses belajar. Jika kamu merasa kesulitan, itu wajar. Teruslah bekerja, belajar, dan jangan menyerah. Kamu pasti bisa!"
+      ]
+    },
+    {
+      "tag": "lelah_menulis_skripsi",
+      "patterns": [
+        "Saya butuh motivasi untuk terus menulis skripsi",
+        "Saya sudah capek menulis skripsi, bagaimana cara tetap semangat?",
+        "Apa yang bisa saya lakukan jika merasa sangat lelah menulis skripsi?",
+        "Saya tidak merasa ada kemajuan dalam skripsi"
+      ],
+      "responses": [
+        "Ingat bahwa kamu sudah membuat kemajuan. Setiap halaman yang kamu tulis, setiap kata yang kamu tambahkan, membawa kamu lebih dekat ke tujuanmu. Jangan melihat satu hari yang berat, lihatlah perjalanan panjang yang sudah kamu tempuh.",
+        "Setiap penulis mengalami rasa lelah dan penurunan motivasi. Cobalah untuk memberi dirimu istirahat singkat, lalu kembali ke pekerjaan dengan pikiran yang lebih segar. Kamu pasti bisa mengatasinya!",
+        "Kadang, kamu hanya perlu berhenti sejenak untuk mereset diri. Lakukan sesuatu yang menyenangkan, kemudian kembali ke skripsimu dengan semangat baru. Jangan lupa, kamu sudah sangat dekat dengan akhir!",
+        "Jika merasa stuck, coba ubah rutinitasmu. Ganti tempat menulis, dengarkan musik yang menyemangati, atau berbicara dengan teman yang juga sedang mengerjakan skripsi. Hal-hal kecil ini bisa memotivasi kamu untuk melanjutkan."
+      ]
+    },
+    {
+      "tag": "cemas_mengerjakan_skripsi",
+      "patterns": [
+        "Saya merasa cemas karena masih banyak yang perlu dikerjakan dalam skripsi",
+        "Bagaimana cara mengatasi kecemasan dalam menulis skripsi?",
+        "Saya khawatir tidak bisa selesai tepat waktu",
+        "Saya merasa terbebani dengan pekerjaan skripsi"
+      ],
+      "responses": [
+        "Cemas itu wajar, tetapi jangan biarkan kecemasan itu menghalangimu. Ingat bahwa skripsi bukanlah sesuatu yang harus diselesaikan dalam semalam. Cobalah untuk memecahnya menjadi tugas yang lebih kecil dan tangani satu per satu.",
+        "Cobalah untuk menenangkan dirimu dengan mengambil napas dalam-dalam. Atur prioritas dan buat rencana yang realistis untuk setiap bagian dari skripsi. Langkah-langkah kecil lebih mudah dikelola daripada tugas besar yang terasa mengintimidasi.",
+        "Jika kamu merasa cemas, coba untuk berbicara dengan dosen atau teman-temanmu. Terkadang, berbagi perasaan dengan orang lain bisa mengurangi rasa khawatir dan memberikan perspektif baru yang lebih menenangkan."
+      ]
+    },
+    {
+      "tag": "persiapan_kerja",
+      "patterns": [
+        "Saya khawatir tidak bisa mendapatkan pekerjaan setelah lulus",
+        "Bagaimana cara mempersiapkan diri untuk dunia kerja?",
+        "Saya merasa tidak siap menghadapi dunia kerja",
+        "Apa yang harus saya lakukan setelah lulus untuk mencari pekerjaan?"
+      ],
+      "responses": [
+        "Perasaan khawatir itu normal, tapi jangan biarkan itu menghentikanmu. Cobalah untuk mempersiapkan diri dengan mengikuti pelatihan, magang, atau belajar keterampilan baru yang relevan dengan bidangmu. Dunia kerja menuntut keahlian, jadi pastikan kamu terus belajar dan mengembangkan dirimu.",
+        "Langkah pertama adalah mencari tahu bidang pekerjaan yang paling sesuai dengan minat dan keahlianmu. Jangan ragu untuk meminta saran dari dosen atau profesional yang sudah lebih berpengalaman. Menjaga jaringan sosial juga sangat penting.",
+        "Dunia kerja memang penuh tantangan, namun percayalah bahwa kamu sudah memiliki kemampuan untuk menghadapi itu semua. Gunakan pengalaman kuliah untuk meningkatkan soft skills seperti komunikasi, kerja tim, dan pemecahan masalah.",
+        "Siapkan CV dan portofolio yang menunjukkan keterampilanmu. Jangan lupa untuk mengikuti berbagai event atau job fair, karena ini bisa memberi kamu banyak kesempatan untuk berkenalan dengan perusahaan yang mencari karyawan baru."
+      ]
+    },
+    {
+      "tag": "takut_gagal",
+      "patterns": [
+        "Saya takut gagal setelah lulus kuliah",
+        "Saya khawatir tidak dapat bersaing dengan orang lain di dunia kerja",
+        "Bagaimana cara mengatasi rasa takut terhadap kegagalan dalam mencari pekerjaan?",
+        "Saya merasa tidak cukup berkompeten untuk memasuki dunia kerja"
+      ],
+      "responses": [
+        "Rasa takut itu adalah bagian dari proses, dan tidak ada yang salah dengan itu. Namun, jangan biarkan rasa takut menguasai. Lihat kegagalan sebagai bagian dari proses belajar. Setiap orang yang sukses juga pernah gagal, yang penting adalah bagaimana kamu bangkit setelahnya.",
+        "Setiap orang memiliki jalan hidup yang berbeda. Jangan terlalu khawatir tentang bersaing dengan orang lain, karena kamu membawa keunikanmu sendiri. Fokuslah pada pengembangan dirimu, dan peluang akan datang dengan sendirinya.",
+        "Cobalah untuk memecah perasaan takut menjadi langkah-langkah kecil yang bisa kamu lakukan setiap hari. Misalnya, mengikuti pelatihan, menambah pengalaman, atau mencari mentor yang bisa membimbingmu dalam dunia kerja.",
+        "Ingatlah bahwa kamu tidak harus menjadi ahli dalam segala hal. Dunia kerja adalah tempat untuk belajar dan berkembang. Jangan ragu untuk mengambil langkah pertama, karena itu adalah awal dari perjalanan panjang."
+      ]
+    },
+    {
+      "tag": "ketidakpastian_setelah_lulus",
+      "patterns": [
+        "Bagaimana cara menghadapi ketidakpastian setelah lulus kuliah?",
+        "Saya merasa bingung tentang masa depan setelah lulus",
+        "Apa yang harus saya lakukan jika saya merasa tidak tahu apa yang ingin saya kerjakan setelah lulus?",
+        "Saya merasa tidak punya arah setelah lulus"
+      ],
+      "responses": [
+        "Ketidakpastian adalah hal yang wajar, terutama setelah lulus kuliah. Cobalah untuk melihat ini sebagai kesempatan untuk mengeksplorasi berbagai pilihan karir. Jika kamu belum tahu pasti ke mana akan pergi, ambil waktu untuk mencari tahu apa yang benar-benar kamu minati.",
+        "Cobalah untuk membuat rencana jangka pendek dan jangka panjang. Tentukan apa yang bisa kamu lakukan dalam waktu dekat, seperti mencari pekerjaan atau melanjutkan studi, dan buat langkah-langkah kecil untuk mencapainya.",
+        "Kamu tidak perlu memiliki jawaban pasti sekarang. Banyak orang merasa bingung setelah lulus kuliah, dan itu bukan masalah. Fokuslah pada pengalaman yang bisa kamu peroleh dan jangan takut untuk mengeksplorasi berbagai pilihan.",
+        "Jika merasa tertekan, bicarakan perasaanmu dengan seseorang yang kamu percayai, seperti teman atau keluarga. Mereka bisa memberimu perspektif baru dan membantu kamu merasa lebih tenang."
+      ]
+    },
+    {
+      "tag": "pekerjaan_setelah_lulus",
+      "patterns": [
+        "Saya merasa kesulitan mencari pekerjaan yang sesuai dengan jurusan saya",
+        "Bagaimana cara menemukan pekerjaan yang tepat setelah lulus?",
+        "Saya khawatir tidak bisa mendapatkan pekerjaan di bidang yang saya pelajari",
+        "Apakah saya harus mencari pekerjaan sesuai jurusan atau mencoba bidang lain?"
+      ],
+      "responses": [
+        "Terkadang, pekerjaan yang sesuai dengan jurusan tidak selalu mudah ditemukan, tetapi itu bukan akhir dari segalanya. Cobalah untuk melihat peluang di bidang lain yang masih terkait dengan keahlian yang kamu miliki. Dunia kerja sering kali membutuhkan berbagai macam keterampilan.",
+        "Mulailah dengan mengidentifikasi keterampilan yang kamu kuasai dan lihat bagaimana itu dapat diterapkan di berbagai bidang. Jangan terbatas hanya pada satu bidang, karena pekerjaan sering kali menggabungkan berbagai keahlian yang dapat digunakan di banyak industri.",
+        "Cobalah untuk mencari lowongan yang sesuai dengan minat dan kemampuanmu, meskipun itu mungkin tidak langsung berhubungan dengan jurusan kuliahmu. Banyak pekerjaan yang lebih fleksibel dan tidak terpaku pada latar belakang pendidikan semata.",
+        "Jika kamu merasa bingung, mencari magang atau pengalaman kerja yang berhubungan dengan bidang yang kamu minati bisa membantu memberi gambaran tentang dunia kerja. Pengalaman itu sangat berharga dan bisa membuka banyak kesempatan."
+      ]
+    },
+    {
+      "tag": "membangun_jaringan_kerja",
+      "patterns": [
+        "Bagaimana cara membangun jaringan setelah lulus kuliah?",
+        "Apakah networking penting untuk mencari pekerjaan?",
+        "Saya tidak tahu bagaimana cara membangun jaringan profesional",
+        "Saya merasa sulit berhubungan dengan orang baru setelah lulus"
+      ],
+      "responses": [
+        "Networking adalah hal yang sangat penting, tetapi tidak perlu terburu-buru. Mulailah dengan menghadiri seminar, workshop, atau acara lain yang berhubungan dengan bidangmu. Bertemu orang baru dan membangun hubungan yang baik bisa membuka banyak kesempatan.",
+        "Gunakan LinkedIn untuk terhubung dengan profesional yang sudah lebih berpengalaman di bidang yang kamu minati. Jangan ragu untuk bertanya atau meminta saran. Banyak orang senang untuk berbagi pengetahuan mereka.",
+        "Jangan terlalu khawatir tentang membangun jaringan secara langsung. Cobalah untuk mulai berbicara dengan teman-teman sekelas atau alumni. Jaringan yang kuat sering kali dimulai dari hubungan yang sudah ada.",
+        "Jaringan bukan hanya tentang siapa yang kamu kenal, tetapi juga tentang bagaimana kamu bisa memberi nilai tambah. Cobalah untuk berbagi pengalaman dan keahlianmu, sehingga orang lain juga merasa terbantu olehmu."
+      ]
+    },
+    {
+      "tag": "keuangan_setelah_lulus",
+      "patterns": [
+        "Saya merasa khawatir tentang keuangan setelah lulus",
+        "Bagaimana cara mengelola keuangan setelah lulus kuliah?",
+        "Saya tidak tahu bagaimana cara mengatur uang setelah lulus",
+        "Saya merasa cemas tentang masalah keuangan setelah kuliah"
+      ],
+      "responses": [
+        "Mengelola keuangan setelah lulus adalah tantangan, tetapi dengan perencanaan yang baik, kamu bisa menghadapinya. Mulailah dengan membuat anggaran dan mengatur pengeluaran bulanan. Pastikan untuk menabung sebagian dari penghasilanmu untuk masa depan.",
+        "Jangan ragu untuk mencari sumber pendapatan tambahan jika perlu, seperti pekerjaan paruh waktu atau freelance. Ini bisa membantu mengurangi rasa cemas dan memberi kamu lebih banyak kendali atas keuangan.",
+        "Cobalah untuk menetapkan tujuan keuangan jangka pendek dan jangka panjang. Ini akan membantu kamu fokus pada apa yang penting, seperti menabung untuk masa depan atau membeli barang-barang yang kamu butuhkan.",
+        "Jika merasa bingung tentang pengelolaan keuangan, banyak aplikasi dan sumber daya online yang bisa membantu kamu membuat anggaran dan merencanakan masa depan finansial."
+      ]
+    },
+    {
+      "tag": "deadline_skripsi",
+      "patterns": [
+        "Saya merasa tertekan dengan deadline skripsi",
+        "Bagaimana cara mengatasi rasa cemas menghadapi deadline skripsi?",
+        "Skripsi saya belum selesai dan waktu semakin dekat, apa yang harus saya lakukan?",
+        "Saya bingung mengatur waktu antara tugas dan skripsi"
+      ],
+      "responses": [
+        "Pertama, cobalah untuk membuat rencana waktu yang jelas. Bagi tugas skripsi menjadi bagian-bagian kecil yang bisa dikerjakan setiap hari. Fokus pada satu bagian pada satu waktu agar tidak merasa kewalahan.",
+        "Sangat penting untuk menjaga keseimbangan antara waktu untuk tugas kuliah dan waktu untuk skripsi. Cobalah untuk tetap disiplin dan beri dirimu waktu istirahat agar tetap produktif dan tidak merasa tertekan.",
+        "Jika kamu merasa tertekan, cobalah untuk berbicara dengan pembimbing atau teman sekelas. Mereka mungkin bisa memberi masukan atau membantu mengurangi beban yang kamu rasakan. Ingat, kamu tidak sendirian dalam proses ini.",
+        "Ingat bahwa skripsi bukanlah pekerjaan yang harus diselesaikan dalam semalam. Prioritaskan apa yang perlu diselesaikan sekarang, dan buat rencana untuk menyelesaikan sisanya. Hal ini akan membantu kamu merasa lebih terkontrol."
+      ]
+    },
+    {
+      "tag": "menulis_bab_1_skripsi",
+      "patterns": [
+        "Saya tidak tahu bagaimana cara menulis bab 1 skripsi",
+        "Apa yang harus saya tulis di bab 1 skripsi?",
+        "Saya bingung memulai bab 1 skripsi saya",
+        "Bagaimana cara menulis latar belakang dan rumusan masalah skripsi?"
+      ],
+      "responses": [
+        "Bab 1 skripsi adalah pengantar utama, jadi mulailah dengan menjelaskan latar belakang masalah yang kamu teliti. Jelaskan mengapa topik ini penting dan relevansi dari penelitianmu.",
+        "Salah satu cara terbaik untuk memulai adalah dengan merinci rumusan masalah. Tentukan tujuan penelitian dan bagaimana kamu akan menyelesaikan masalah tersebut. Pastikan juga untuk mengidentifikasi permasalahan yang ingin kamu pecahkan dalam penelitian.",
+        "Bab 1 biasanya terdiri dari latar belakang, rumusan masalah, tujuan penelitian, dan manfaat penelitian. Cobalah untuk menulis secara bertahap, dengan fokus pada setiap bagian satu per satu.",
+        "Jika kamu merasa kesulitan, carilah contoh skripsi yang relevan dengan topikmu. Ini bisa memberi inspirasi dan gambaran tentang bagaimana sebaiknya kamu menulis bab 1."
+      ]
+    },
+    {
+      "tag": "percaya_diri_sidang_skripsi",
+      "patterns": [
+        "Bagaimana cara membangun rasa percaya diri untuk ujian dan presentasi skripsi?",
+        "Saya sangat cemas untuk presentasi skripsi, bagaimana cara mengatasi kecemasan?",
+        "Bagaimana cara menghadapi ujian atau sidang skripsi dengan percaya diri?",
+        "Apa yang harus saya lakukan agar tidak gugup saat sidang skripsi?"
+      ],
+      "responses": [
+        "Rasa cemas adalah hal yang wajar, tapi kamu bisa menghadapinya dengan persiapan yang matang. Latih presentasimu di depan teman atau keluarga agar kamu merasa lebih siap dan percaya diri.",
+        "Sebelum sidang, cobalah untuk membaca ulang skripsimu dan mempersiapkan jawaban untuk pertanyaan-pertanyaan yang mungkin diajukan. Semakin kamu mempersiapkan diri, semakin percaya diri kamu akan merasa.",
+        "Cobalah untuk bernafas dalam-dalam dan fokus pada apa yang ingin kamu sampaikan. Ingat bahwa sidang skripsi adalah kesempatan untuk menunjukkan hasil kerja kerasmu. Jangan terlalu khawatir tentang penilaian, fokuslah pada prosesnya.",
+        "Berlatihlah berbicara dengan percaya diri, meskipun di depan cermin. Ini akan membantu kamu merasa lebih nyaman dan mengurangi kecemasan saat presentasi di depan penguji."
+      ]
+    },
+    {
+      "tag": "cemas_masa_depan_setelah_lulus",
+      "patterns": [
+        "Bagaimana cara saya mengatasi perasaan cemas tentang masa depan setelah lulus?",
+        "Saya khawatir tidak bisa menemukan pekerjaan yang cocok setelah lulus",
+        "Bagaimana cara saya menghadapi masa depan setelah perkuliahan?",
+        "Apa yang harus saya lakukan jika saya tidak tahu arah hidup saya setelah lulus?"
+      ],
+      "responses": [
+        "Jangan khawatir, banyak orang yang merasa bingung setelah lulus. Cobalah untuk melihat ini sebagai kesempatan untuk mengeksplorasi berbagai pilihan karir. Berbicaralah dengan orang yang kamu percayai untuk mendapatkan perspektif baru.",
+        "Satu langkah yang bisa kamu coba adalah merencanakan tujuan jangka pendek dan jangka panjang. Tentukan apa yang ingin kamu capai dalam beberapa bulan ke depan, dan buat rencana untuk mencapainya.",
+        "Ingatlah bahwa kehidupan setelah kuliah bukanlah sesuatu yang harus dicapai dalam waktu singkat. Ambil langkah kecil dan biarkan dirimu berkembang seiring waktu. Kamu memiliki banyak peluang di depanmu.",
+        "Jangan merasa tertekan untuk memiliki jawaban yang sempurna. Cobalah untuk terhubung dengan mentor atau orang yang lebih berpengalaman di bidang yang kamu minati. Mereka bisa memberimu saran yang berguna dan membantu mengurangi kecemasanmu."
+      ]
+    },
+    {
+      "tag": "mencari_pekerjaan_setelah_lulus",
+      "patterns": [
+        "Saya khawatir tentang bagaimana cara memulai mencari pekerjaan setelah lulus",
+        "Apa yang harus saya lakukan untuk mempersiapkan diri menghadapi dunia kerja?",
+        "Saya bingung harus mulai dari mana untuk mencari pekerjaan",
+        "Bagaimana cara mencari pekerjaan setelah lulus kuliah?"
+      ],
+      "responses": [
+        "Mulailah dengan mengenali keahlian yang kamu miliki dan cari tahu perusahaan atau industri mana yang membutuhkan keahlian tersebut. Buatlah CV yang jelas dan ringkas yang menyoroti keahlian serta pengalaman yang relevan.",
+        "Jangan takut untuk memulai pencarian kerja meskipun kamu merasa belum sepenuhnya siap. Cobalah untuk mengidentifikasi perusahaan yang kamu minati, dan lihat peluang magang atau posisi entry-level yang bisa memberikan pengalaman berharga.",
+        "Bangun jaringan dengan mengikuti acara atau seminar yang relevan dengan bidang yang kamu minati. LinkedIn adalah platform yang sangat berguna untuk menghubungkan dirimu dengan profesional di industri yang kamu inginkan.",
+        "Jangan ragu untuk mencari pekerjaan meskipun kamu merasa kurang percaya diri. Proses pencarian pekerjaan adalah langkah besar, tapi semakin kamu mencoba dan beradaptasi, semakin besar peluang yang terbuka untukmu."
+      ]
+    },
+    {
+      "tag": "mengatasi_kekurangan_pengalaman",
+      "patterns": [
+        "Saya merasa tidak punya pengalaman yang cukup untuk melamar pekerjaan",
+        "Bagaimana saya bisa mendapatkan pengalaman jika saya baru saja lulus?",
+        "Apakah pengalaman magang cukup untuk melamar pekerjaan?",
+        "Saya tidak merasa siap menghadapi dunia kerja"
+      ],
+      "responses": [
+        "Ingatlah bahwa pengalaman tidak selalu harus dari pekerjaan tetap. Pengalaman magang, proyek penelitian, atau kegiatan organisasi bisa sangat berharga dan relevan untuk lamaran pekerjaanmu.",
+        "Jika kamu merasa kurang pengalaman, cobalah untuk berfokus pada keterampilan yang telah kamu kuasai. Perusahaan sering mencari keterampilan tertentu seperti kemampuan bekerja dalam tim, kemampuan komunikasi, dan manajemen waktu.",
+        "Jangan terlalu keras pada dirimu sendiri. Setiap orang mulai dari suatu titik dan tidak ada yang langsung siap. Mulailah dengan peluang-peluang yang dapat memberikanmu pengalaman dan keterampilan lebih, seperti magang atau pekerjaan freelance.",
+        "Jangan ragu untuk melamar, meskipun kamu merasa belum memiliki semua yang dibutuhkan. Banyak perusahaan yang memberikan kesempatan bagi pemula untuk belajar dan berkembang di tempat kerja."
+      ]
+    },
+    {
+      "tag": "mengatur_waktu_skripsi_dan_pekerjaan",
+      "patterns": [
+        "Saya merasa kesulitan untuk mengatur waktu antara skripsi dan mencari pekerjaan",
+        "Bagaimana cara mengatur waktu untuk menyelesaikan skripsi dan mencari pekerjaan?",
+        "Saya merasa kewalahan dengan banyaknya hal yang harus saya kerjakan",
+        "Bagaimana cara agar tetap produktif antara tugas kuliah dan pencarian pekerjaan?"
+      ],
+      "responses": [
+        "Cobalah untuk membagi waktumu dengan menetapkan prioritas. Tentukan waktu tertentu dalam sehari untuk fokus pada skripsi, dan alokasikan waktu yang lain untuk pencarian pekerjaan atau persiapan karir.",
+        "Buatlah jadwal harian atau mingguan yang jelas. Pisahkan waktu untuk bekerja pada skripsi, mengerjakan tugas kuliah, dan juga waktu untuk pencarian pekerjaan atau memperbarui CV dan portfolio.",
+        "Jika merasa kewalahan, cobalah untuk menggunakan teknik manajemen waktu seperti Pomodoro, yang membantu kamu fokus dalam waktu yang lebih singkat dan memberi jeda agar tetap segar dan produktif.",
+        "Terkadang, penting untuk memberi diri kamu waktu untuk beristirahat dan rehat sejenak. Jangan terlalu memaksakan diri. Sesuaikan pekerjaan dengan energi yang kamu miliki, dan berikan dirimu penghargaan setelah mencapai target-target kecil."
+      ]
+    },
+    {
+      "tag": "menghadapi_kecemasan_setelah_lulus",
+      "patterns": [
+        "Saya tidak tahu apa yang harus saya lakukan setelah lulus kuliah",
+        "Bagaimana cara saya menentukan langkah selanjutnya setelah selesai kuliah?",
+        "Apa yang harus saya lakukan setelah lulus agar hidup lebih terarah?",
+        "Saya merasa bingung dan cemas tentang masa depan setelah kuliah"
+      ],
+      "responses": [
+        "Jangan khawatir, banyak orang merasa bingung setelah lulus kuliah. Cobalah untuk mengidentifikasi apa yang membuatmu tertarik dan apa yang ingin kamu capai dalam beberapa tahun ke depan. Tentukan tujuan jangka pendek dan jangka panjang yang bisa membimbing langkahmu.",
+        "Jika merasa bingung, mulailah dengan berbicara dengan mentor, dosen, atau teman yang sudah lebih berpengalaman. Mereka bisa memberimu pandangan baru dan membantu mengarahkanmu.",
+        "Salah satu langkah yang bisa kamu coba adalah memperluas pengetahuanmu melalui kursus online atau sertifikasi di bidang yang kamu minati. Ini akan meningkatkan peluangmu dan membantu kamu merasa lebih percaya diri memasuki dunia kerja.",
+        "Jangan terlalu terfokus pada kesempurnaan atau memiliki jawaban yang langsung jelas. Proses mencari arah hidup adalah perjalanan yang bertahap, dan setiap langkah kecil yang kamu ambil akan membimbingmu lebih dekat ke tujuan."
+      ]
+    },
+    {
+      "tag": "menghadapi_kecemasan_karir",
+      "patterns": [
+        "Bagaimana cara menghadapi kecemasan tentang masa depan karir saya?",
+        "Saya cemas dengan persaingan di dunia kerja, bagaimana cara menanggulanginya?",
+        "Apa yang harus saya lakukan agar tidak merasa cemas saat menghadapi interview kerja?",
+        "Saya merasa tidak siap menghadapi dunia kerja yang sangat kompetitif"
+      ],
+      "responses": [
+        "Rasa cemas tentang dunia kerja adalah hal yang wajar. Fokuslah pada peningkatan keterampilanmu, seperti keterampilan komunikasi dan keterampilan teknis, yang akan membuatmu lebih siap menghadapi persaingan.",
+        "Ingat bahwa setiap orang memiliki kecepatan dan jalannya sendiri. Jangan membandingkan dirimu dengan orang lain yang terlihat lebih sukses. Berfokuslah pada pengembangan diri dan terus belajar dari pengalaman.",
+        "Cobalah untuk mempersiapkan diri sebaik mungkin untuk wawancara kerja dengan berlatih menjawab pertanyaan umum yang sering diajukan. Semakin kamu mempersiapkan diri, semakin percaya diri kamu saat wawancara.",
+        "Terapkan mindset pertumbuhan. Melihat setiap tantangan sebagai peluang untuk belajar dan berkembang, alih-alih menganggapnya sebagai hambatan. Ini akan membantu kamu tetap positif dan menghadapi masa depan dengan lebih percaya diri."
+      ]
+    },
+    {
+      "tag": "adaptasi_kerja",
+      "patterns": [
+        "Bagaimana cara menghadapi perubahan yang cepat setelah lulus kuliah?",
+        "Saya khawatir tidak bisa menyesuaikan diri dengan perubahan yang ada setelah kuliah",
+        "Saya merasa dunia kerja sangat berbeda dengan kehidupan kampus, bagaimana cara beradaptasi?",
+        "Apa yang harus saya lakukan jika saya merasa kesulitan beradaptasi setelah lulus?"
+      ],
+      "responses": [
+        "Perubahan memang bisa menantang, namun itu juga adalah kesempatan untuk tumbuh. Cobalah untuk tetap terbuka terhadap pembelajaran baru dan fleksibel dalam menghadapi tantangan.",
+        "Salah satu cara terbaik untuk beradaptasi adalah dengan mencari mentor di dunia kerja yang bisa membimbingmu. Belajar dari pengalaman mereka akan mempercepat proses adaptasimu.",
+        "Beradaptasi dengan dunia kerja memang memerlukan waktu. Mulailah dengan menjalani pekerjaan yang kecil, magang, atau proyek freelance, yang memungkinkan kamu belajar tanpa tekanan besar.",
+        "Jangan terlalu khawatir jika merasa kesulitan beradaptasi. Banyak orang yang merasakan hal yang sama. Yang penting adalah tetap terbuka untuk belajar dan jangan takut untuk meminta bantuan atau mencari dukungan saat dibutuhkan."
+      ]
+    },
+    {
+      "tag": "pemilihan_judul_skripsi",
+      "patterns": [
+        "Saya kesulitan menentukan judul skripsi, bagaimana cara memilih judul yang tepat?",
+        "Bagaimana cara memilih topik skripsi yang menarik dan sesuai dengan minat?",
+        "Apa yang harus saya pertimbangkan saat memilih judul skripsi?",
+        "Saya bingung memilih judul skripsi yang sesuai dengan kemampuan dan minat saya"
+      ],
+      "responses": [
+        "Mulailah dengan memikirkan hal-hal yang kamu minati selama kuliah, baik itu dalam mata kuliah tertentu atau proyek yang sudah kamu kerjakan. Pilihlah topik yang tidak hanya menarik, tapi juga relevan dengan perkembangan bidang kamu.",
+        "Tentukan masalah atau pertanyaan yang ingin kamu jawab melalui penelitian. Judul skripsi yang baik biasanya memiliki fokus yang jelas dan masalah yang spesifik, serta dapat dijawab dengan pendekatan ilmiah.",
+        "Jika kesulitan, coba diskusikan dengan dosen pembimbing atau teman-teman yang memiliki pandangan berbeda. Terkadang, diskusi akan membuka banyak kemungkinan dan memberi pencerahan dalam memilih judul.",
+        "Pilih judul yang tidak hanya sesuai dengan minatmu, tapi juga realistis untuk dikerjakan dalam waktu yang ada. Pastikan juga ada sumber data yang cukup untuk mendukung penelitianmu."
+      ]
+    },
+    {
+      "tag": "memulai_skripsi",
+      "patterns": [
+        "Saya merasa tidak siap untuk memulai skripsi, apa yang harus saya lakukan pertama kali?",
+        "Bagaimana cara memulai menulis skripsi dengan efektif?",
+        "Apa yang harus saya lakukan terlebih dahulu setelah memilih judul skripsi?",
+        "Langkah pertama yang harus saya lakukan untuk menyelesaikan skripsi apa?"
+      ],
+      "responses": [
+        "Langkah pertama adalah membuat rencana penelitian yang jelas. Tentukan tujuan penelitian, metodologi, dan waktu yang dibutuhkan untuk setiap tahapan. Ini akan membantumu tetap terorganisir.",
+        "Mulailah dengan melakukan tinjauan pustaka untuk mencari referensi terkait topik skripsimu. Bacalah jurnal, artikel, dan buku yang relevan untuk mendalami topik yang telah dipilih.",
+        "Diskusikan rencana penelitian dengan dosen pembimbing. Mereka akan memberikan saran terkait metodologi dan arah yang lebih tepat untuk penelitianmu.",
+        "Jangan lupa untuk membuat jadwal kerja dengan tenggat waktu yang jelas untuk setiap bagian skripsi. Menetapkan deadline pribadi akan membantu menjaga konsistensi dan mencegah penundaan."
+      ]
+    },
+    {
+      "tag": "kerangka_skripsi",
+      "patterns": [
+        "Saya tidak tahu cara menyusun kerangka skripsi, bagaimana cara membuatnya?",
+        "Apa saja yang harus ada dalam kerangka skripsi?",
+        "Bagaimana cara membuat struktur skripsi yang baik dan benar?",
+        "Apa yang harus ada dalam bab pendahuluan skripsi?"
+      ],
+      "responses": [
+        "Kerangka skripsi biasanya mencakup beberapa bab utama: pendahuluan, tinjauan pustaka, metodologi, hasil dan pembahasan, serta kesimpulan. Kamu bisa mulai dengan membuat daftar sub-bab yang akan dibahas dalam setiap bab tersebut.",
+        "Pastikan bab pendahuluan mencakup latar belakang, rumusan masalah, tujuan penelitian, manfaat penelitian, serta batasan masalah. Semua ini harus jelas agar pembaca memahami konteks penelitianmu.",
+        "Untuk bab metodologi, jelaskan dengan rinci tentang jenis penelitian yang dilakukan, metode pengumpulan data, serta teknik analisis data yang akan digunakan.",
+        "Jangan ragu untuk meminta saran dari dosen pembimbing mengenai kerangka skripsi. Mereka dapat memberikan masukan agar strukturnya sesuai dengan standar akademik."
+      ]
+    },
+    {
+      "tag": "tinjauan_pustaka",
+      "patterns": [
+        "Saya merasa kesulitan menulis bab tinjauan pustaka, apa yang harus saya lakukan?",
+        "Bagaimana cara menemukan referensi yang relevan untuk tinjauan pustaka?",
+        "Saya bingung mulai dari mana untuk menulis tinjauan pustaka",
+        "Apa yang harus saya cari untuk menulis tinjauan pustaka yang baik?"
+      ],
+      "responses": [
+        "Mulailah dengan mencari jurnal ilmiah atau artikel yang relevan dengan topik skripsimu. Google Scholar, JSTOR, atau database universitas adalah tempat yang bagus untuk mencari referensi.",
+        "Tinjauan pustaka harus menjelaskan penelitian sebelumnya yang relevan dengan topik skripsi kamu. Cobalah untuk mengelompokkan penelitian yang ada berdasarkan temanya untuk membuat tulisanmu lebih terstruktur.",
+        "Fokuskan tinjauan pustaka pada penelitian yang paling relevan dan terbaru, dan pastikan untuk menunjukkan gap atau celah yang belum terjawab oleh penelitian sebelumnya. Gap ini akan menjadi dasar untuk rumusan masalah dalam skripsimu.",
+        "Jika kesulitan menemukan referensi, mintalah bantuan dari dosen pembimbing atau pustakawan di perpustakaan kampus yang dapat membantu mencari sumber-sumber yang tepat."
+      ]
+    },
+    {
+      "tag": "metodologi_skripsi",
+      "patterns": [
+        "Saya merasa kesulitan menulis bab metodologi, apa yang harus saya jelaskan di sana?",
+        "Bagaimana cara memilih metode penelitian yang tepat untuk skripsi?",
+        "Saya bingung tentang bagaimana cara menjelaskan metodologi penelitian dalam skripsi",
+        "Apa yang harus saya tulis di bab metodologi skripsi?"
+      ],
+      "responses": [
+        "Di bab metodologi, kamu harus menjelaskan dengan jelas jenis penelitian yang digunakan (misalnya kualitatif, kuantitatif, atau campuran), cara pengumpulan data, serta teknik analisis yang akan digunakan.",
+        "Jika belum yakin metode yang digunakan, diskusikan dengan dosen pembimbing. Pastikan metode yang dipilih sesuai dengan tujuan penelitian dan memadai untuk menjawab rumusan masalah skripsimu.",
+        "Berikan detail tentang cara kamu memilih sampel, kriteria inklusi, serta prosedur penelitian. Jelaskan juga alat atau instrumen yang digunakan, seperti kuesioner atau perangkat lunak analisis.",
+        "Pastikan bab metodologi mudah dipahami, sehingga pembaca dapat mereplikasi penelitianmu jika diperlukan. Keterbukaan dan kejelasan sangat penting di bagian ini."
+      ]
+    },
+    {
+      "tag": "pengumpulan_data_skripsi",
+      "patterns": [
+        "Saya merasa kesulitan mengumpulkan data untuk skripsi saya, bagaimana cara mengatasinya?",
+        "Bagaimana cara mendapatkan data yang diperlukan untuk penelitian skripsi?",
+        "Apa yang harus saya lakukan jika data yang saya butuhkan sulit ditemukan?",
+        "Saya kesulitan dalam pengumpulan data untuk penelitian saya"
+      ],
+      "responses": [
+        "Jika data sulit ditemukan, coba pertimbangkan untuk menggunakan metode pengumpulan data lain, seperti wawancara atau survei, yang dapat memberikan informasi langsung dari responden.",
+        "Pastikan kamu sudah mencari sumber data yang tepat. Cobalah untuk menggunakan beberapa teknik, misalnya data sekunder dari laporan penelitian terdahulu atau data yang ada di database universitas.",
+        "Jika penelitianmu memerlukan data primer, pastikan kamu sudah menyusun instrumen yang tepat, seperti kuesioner atau wawancara. Jangan ragu untuk meminta bantuan dari dosen pembimbing dalam proses ini.",
+        "Terkadang, kesulitan dalam pengumpulan data juga dapat diselesaikan dengan mencari kolaborasi dengan pihak lain yang memiliki akses ke data yang kamu butuhkan. Cobalah menjalin komunikasi dengan rekan atau lembaga yang relevan."
+      ]
+    },
+    {
+      "tag": "prokrastinasi_skripsi",
+      "patterns": [
+        "Saya sering menunda-nunda pengerjaan skripsi, bagaimana cara mengatasinya?",
+        "Saya kesulitan untuk tetap fokus dalam mengerjakan skripsi, ada tipsnya?",
+        "Saya tidak bisa mengatur waktu dengan baik untuk skripsi, bagaimana solusinya?",
+        "Apa yang bisa saya lakukan agar tidak terjebak dalam prokrastinasi skripsi?"
+      ],
+      "responses": [
+        "Cobalah untuk menetapkan target harian atau mingguan dalam menyelesaikan bagian-bagian tertentu dari skripsimu. Ini akan membantumu untuk tetap fokus dan merasa ada progres.",
+        "Gunakan teknik manajemen waktu seperti Pomodoro, di mana kamu bekerja selama 25 menit fokus penuh, lalu istirahat selama 5 menit. Ini akan membantumu untuk menjaga energi dan produktivitas.",
+        "Jangan biarkan perasaan cemas atau takut gagal menghambatmu. Mulailah dengan langkah kecil, dan selesaikan satu bagian skripsi dulu. Setiap bagian kecil yang selesai akan membantumu untuk terus maju.",
+        "Jika merasa kesulitan, jangan ragu untuk meminta bantuan. Dosen pembimbing bisa memberi masukan yang membantu agar kamu lebih terarah dan tidak merasa terjebak dalam keraguan."
+      ]
+    },
+    {
+      "tag": "stress_management",
+      "patterns": [
+        "Saya merasa tertekan dengan waktu yang semakin sempit untuk menyelesaikan skripsi, apa yang harus saya lakukan?",
+        "Apa yang bisa saya lakukan agar bisa tetap tenang dan fokus saat mendekati deadline skripsi?",
+        "Saya takut tidak bisa menyelesaikan skripsi tepat waktu, bagaimana cara menghadapinya?",
+        "Saya merasa cemas karena skripsi saya belum selesai, bagaimana cara mengelola stres ini?"
+      ],
+      "responses": [
+        "Terkadang perasaan tertekan datang karena kita terlalu fokus pada deadline dan bukannya pada langkah-langkah kecil yang bisa kita selesaikan. Cobalah untuk membagi tugas menjadi bagian yang lebih kecil dan fokus pada satu bagian dalam satu waktu.",
+        "Jika kamu merasa cemas, coba untuk melakukan teknik relaksasi seperti pernapasan dalam atau meditasi. Ini bisa membantu menenangkan pikiranmu dan mengurangi stres.",
+        "Tentukan prioritas dan buat jadwal yang realistis. Jangan terlalu membebani dirimu. Ingat, kamu tidak sendirian, banyak mahasiswa yang merasa cemas seperti ini, dan itu sangat wajar. Fokus pada progres kecil setiap hari dan hasilnya akan terlihat.",
+        "Jika merasa tertekan, cobalah untuk berbicara dengan dosen pembimbing atau teman. Mereka bisa memberikan perspektif baru dan solusi untuk masalah yang mungkin tidak terlihat jelas saat kamu terjebak dalam kekhawatiran."
+      ]
+    },
+    {
+      "tag": "motivation",
+      "patterns": [
+        "Saya merasa sangat lelah dan kehilangan motivasi untuk melanjutkan skripsi, bagaimana cara mengembalikan semangat?",
+        "Saya hampir menyerah karena skripsi saya tidak berjalan dengan lancar, apa yang harus saya lakukan?",
+        "Bagaimana cara tetap termotivasi meskipun progres skripsi saya sangat lambat?",
+        "Saya merasa tidak punya energi untuk melanjutkan skripsi, bagaimana cara bangkit kembali?"
+      ],
+      "responses": [
+        "Cobalah untuk mengingat kembali alasan mengapa kamu memilih topik ini. Terkadang mengingat tujuan awal dan dampak positif yang bisa dihasilkan dari penelitianmu bisa memberi semangat baru.",
+        "Ingat bahwa perjalanan skripsi tidak selalu mulus, dan itu wajar. Setiap mahasiswa pasti menghadapi tantangan. Jangan ragu untuk meminta dukungan dari teman atau dosen pembimbing jika merasa kesulitan.",
+        "Ambil waktu untuk istirahat sejenak. Kelelahan mental bisa menghambat kreativitas dan motivasi. Setelah istirahat, cobalah untuk kembali dengan semangat baru dan fokus pada satu tugas kecil terlebih dahulu.",
+        "Jika kamu merasa kehilangan motivasi, ingatlah bahwa langkah kecil lebih baik daripada tidak melangkah sama sekali. Selesaikan satu bagian skripsi setiap hari, dan kamu akan merasa lebih dekat dengan tujuanmu."
+      ]
+    },
+    {
+      "tag": "feedback_reception",
+      "patterns": [
+        "Saya merasa kesulitan dengan kritik dari dosen pembimbing, bagaimana cara menghadapinya?",
+        "Saya tidak tahu bagaimana cara menerima masukan dari dosen dengan baik, apa yang harus saya lakukan?",
+        "Bagaimana cara tetap percaya diri meskipun skripsi saya banyak direvisi oleh dosen?",
+        "Apa yang harus saya lakukan jika saya merasa tidak mampu memenuhi ekspektasi dosen?"
+      ],
+      "responses": [
+        "Kritik dari dosen adalah bagian dari proses belajar. Gunakan masukan yang diberikan untuk meningkatkan kualitas skripsimu. Jangan melihat kritik sebagai kegagalan, melainkan sebagai peluang untuk tumbuh.",
+        "Cobalah untuk mendengarkan dengan baik dan membuka pikiran terhadap saran yang diberikan. Jika ada hal yang kurang jelas, jangan ragu untuk bertanya. Ini akan membantu kamu untuk memperbaiki bagian yang perlu diperbaiki.",
+        "Jangan terlalu keras pada diri sendiri. Setiap orang memiliki prosesnya masing-masing. Skripsi adalah karya yang membutuhkan revisi. Ingat, semakin banyak revisi, semakin baik hasil akhirnya.",
+        "Percayalah bahwa kamu sudah melakukan yang terbaik. Setiap revisi adalah langkah menuju skripsi yang lebih matang. Jangan biarkan kecemasan menguasai dirimu. Teruslah berusaha, dan kamu akan berhasil."
+      ]
+    },
+    {
+      "tag": "exam_preparation",
+      "patterns": [
+        "Saya takut gagal di ujian skripsi, bagaimana cara mempersiapkan ujian dengan baik?",
+        "Bagaimana cara meningkatkan percaya diri saat menghadapi ujian skripsi?",
+        "Apa yang harus saya lakukan agar ujian skripsi saya berjalan lancar?",
+        "Saya merasa cemas dengan ujian sidang skripsi, bagaimana cara menghadapinya?"
+      ],
+      "responses": [
+        "Persiapkan dengan baik, tetapi jangan terlalu memaksakan diri. Fokus pada poin-poin penting dari skripsimu dan siapkan jawaban yang jelas untuk pertanyaan yang mungkin muncul. Latihan presentasi dengan teman bisa membantu meningkatkan kepercayaan dirimu.",
+        "Untuk meningkatkan percaya diri, lakukan latihan presentasi secara berkala. Semakin sering berlatih, semakin percaya diri kamu saat ujian skripsi. Juga, pastikan kamu memahami materi skripsimu dengan baik.",
+        "Pastikan untuk memahami seluruh isi skripsimu, mulai dari bab pendahuluan hingga kesimpulan. Ujian sidang bukan hanya tentang menjawab pertanyaan, tetapi juga tentang menunjukkan bahwa kamu menguasai topik yang kamu teliti.",
+        "Sidang skripsi adalah kesempatan untuk menunjukkan apa yang telah kamu pelajari. Jangan takut untuk mengakui jika ada hal yang kurang kamu ketahui. Mahasiswa yang jujur dan siap belajar selalu dihargai oleh penguji."
+      ]
+    },
+    {
+      "tag": "future_anxiety",
+      "patterns": [
+        "Saya merasa cemas tentang masa depan setelah lulus, bagaimana cara menghadapinya?",
+        "Bagaimana cara mempersiapkan diri untuk dunia kerja setelah lulus?",
+        "Saya takut tidak bisa mendapatkan pekerjaan setelah lulus, apa yang harus saya lakukan?",
+        "Apa yang harus saya persiapkan agar siap bekerja setelah menyelesaikan skripsi?"
+      ],
+      "responses": [
+        "Perasaan cemas tentang masa depan setelah lulus sangat wajar. Cobalah untuk memanfaatkan waktu yang ada untuk mengembangkan keterampilan yang relevan dengan bidang yang kamu minati, seperti keterampilan teknis atau soft skills.",
+        "Mulailah dengan membangun jaringan profesional, baik itu dengan dosen, alumni, atau perusahaan yang bergerak di bidang yang kamu minati. Networking sangat penting dalam mencari pekerjaan.",
+        "Jangan fokus hanya pada satu peluang. Terbuka untuk mencoba berbagai jenis pekerjaan atau magang yang dapat memberikan pengalaman berharga dan memperluas jaringanmu.",
+        "Sebelum lulus, pastikan kamu memiliki portofolio yang menunjukkan keterampilanmu. Ikuti kursus atau pelatihan tambahan yang relevan dengan bidangmu, dan buatlah CV yang menonjolkan kemampuan dan pengalaman yang kamu miliki."
+      ]
+    },
+    {
+      "tag": "social_support",
+      "patterns": [
+        "Saya merasa terasing dan tidak ada yang memahami tekanan saya, bagaimana cara menghadapinya?",
+        "Saya merasa sendiri dalam mengerjakan skripsi ini, bagaimana cara menghadapi perasaan itu?",
+        "Saya merasa tidak ada yang mendukung saya, bagaimana cara mendapatkan dukungan dalam menyelesaikan skripsi?",
+        "Saya merasa terisolasi dalam proses skripsi, bagaimana cara mencari dukungan?"
+      ],
+      "responses": [
+        "Perasaan terasing memang bisa muncul, terutama saat kamu merasa sangat fokus pada skripsi. Cobalah untuk berbicara dengan teman atau keluarga, bahkan jika itu hanya untuk berbagi perasaan dan mendapatkan dukungan.",
+        "Jangan takut untuk mencari dukungan dari orang lain. Teman-teman yang juga sedang mengerjakan skripsi mungkin memiliki perasaan yang sama. Diskusi dengan mereka bisa mengurangi rasa terasing.",
+        "Terkadang, mencari dukungan bukan hanya tentang mendapatkan bantuan teknis, tetapi juga dukungan emosional. Bicarakan perasaanmu dengan orang yang kamu percayai. Kamu tidak sendirian dalam perjalanan ini.",
+        "Jika merasa terisolasi, cobalah untuk mencari kelompok studi atau bergabung dengan komunitas mahasiswa yang memiliki minat yang sama. Bisa jadi, dukungan dari kelompok ini akan sangat membantu."
+      ]
+    },
+    {
+      "tag": "anxiety_skripsi",
+      "patterns": [
+        "Saya merasa sangat cemas dan tertekan dengan skripsi ini, apa yang bisa saya lakukan agar lebih tenang?",
+        "Saya selalu merasa takut tidak bisa menyelesaikan skripsi tepat waktu, bagaimana cara menghadapinya?",
+        "Apakah normal merasa cemas begitu besar ketika sudah mendekati deadline skripsi?",
+        "Saya merasa tidak cukup baik untuk menyelesaikan skripsi, apa yang bisa saya lakukan agar tetap semangat?"
+      ],
+      "responses": [
+        "Perasaan cemas dan tertekan adalah hal yang sangat umum dialami mahasiswa pada tahap akhir perkuliahan, terutama menjelang deadline skripsi. Salah satu cara untuk menghadapinya adalah dengan membagi tugas-tugas besar menjadi bagian yang lebih kecil. Fokuskan energi kamu untuk menyelesaikan bagian-bagian tersebut, dan jangan terlalu terbebani dengan keseluruhan proyek. Setiap langkah kecil yang kamu selesaikan mendekatkanmu pada tujuan akhir.",
+        "Jika kamu merasa takut tidak bisa menyelesaikan skripsi tepat waktu, coba untuk membuat jadwal yang lebih realistis dan tentukan prioritas utama dalam setiap tahapnya. Jangan terlalu banyak menyalahkan diri sendiri, ingat bahwa proses ini tidak selalu mulus. Lakukan yang terbaik di setiap langkah, dan hasilnya akan mengikuti.",
+        "Cemas menjelang deadline adalah hal yang normal, karena tekanan untuk menyelesaikan sesuatu yang besar dapat menimbulkan ketegangan. Namun, ingatlah bahwa kecemasan itu bisa dikendalikan. Cobalah untuk mengambil jeda beberapa menit untuk bernafas dalam-dalam, atau lakukan meditasi singkat agar tubuh dan pikiranmu lebih relaks. Jangan ragu untuk mencari dukungan dari dosen atau teman dekat, mereka mungkin bisa memberi perspektif yang membantu.",
+        "Jika kamu merasa tidak cukup baik atau merasa kesulitan untuk melanjutkan, ingatlah bahwa perasaan itu bukan hal yang permanen. Setiap orang melalui tantangan yang sama. Apa yang penting adalah terus berusaha dan tidak menyerah. Beri dirimu waktu untuk beristirahat dan kembali dengan energi baru. Seringkali, ide-ide segar muncul setelah kamu memberi dirimu waktu untuk recharge."
+      ]
+    },
+    {
+      "tag": "motivasi_skripsi",
+      "patterns": [
+        "Apa yang harus saya lakukan jika saya merasa kehilangan motivasi untuk melanjutkan skripsi?",
+        "Saya merasa sangat lelah, baik fisik maupun mental, apa yang bisa saya lakukan untuk bangkit kembali?",
+        "Skripsi saya tidak berkembang sesuai harapan, bagaimana cara memotivasi diri untuk terus bekerja?",
+        "Bagaimana cara menjaga semangat saat merasa stuck di tengah proses skripsi?"
+      ],
+      "responses": [
+        "Kehilangan motivasi sering terjadi ketika kita merasa terlalu fokus pada hasil akhir dan melupakan proses yang kita jalani. Cobalah untuk menyegarkan pikiranmu dengan mengambil waktu sejenak untuk melakukan aktivitas yang menyenangkan, seperti berolahraga ringan atau berkumpul dengan teman. Setelah itu, kamu bisa kembali dengan energi baru dan lebih fokus pada bagian kecil dari skripsimu.",
+        "Jika merasa lelah fisik dan mental, sangat penting untuk memberi diri waktu istirahat yang cukup. Pikiran yang terlalu lelah sulit untuk fokus. Ambil waktu untuk tidur yang cukup dan atur rutinitas harian yang tidak membebani. Setelah beristirahat, kamu akan kembali dengan semangat yang lebih tinggi dan mampu menyelesaikan tugas-tugas kecil dengan lebih efisien.",
+        "Progres yang tidak sesuai harapan memang bisa menurunkan semangat. Namun, jangan terlalu keras pada diri sendiri. Setiap langkah, bahkan yang terasa lambat, adalah kemajuan. Mulailah dengan hal-hal kecil yang dapat kamu selesaikan dalam waktu singkat. Keberhasilan dalam menyelesaikan bagian kecil akan memberi kamu rasa pencapaian yang menguatkan semangat untuk melanjutkan.",
+        "Jika merasa stuck, cobalah untuk mencari perspektif baru. Diskusikan dengan teman atau dosen pembimbing mengenai hambatan yang kamu hadapi. Kadang, berbicara dengan orang lain bisa membuka jalan keluar yang sebelumnya tidak terlihat. Juga, jangan takut untuk melakukan perubahan kecil pada pendekatan atau metode yang kamu gunakan dalam skripsi."
+      ]
+    },
+    {
+      "tag": "kritik_dosen",
+      "patterns": [
+        "Dosen saya memberikan banyak revisi pada skripsi saya, saya merasa kecewa. Apa yang harus saya lakukan?",
+        "Bagaimana cara menerima kritik dosen tanpa merasa putus asa?",
+        "Saya merasa dosen tidak memahami arah penelitian saya, bagaimana cara menghadapinya?",
+        "Skripsi saya banyak direvisi, apa yang harus saya lakukan untuk memperbaikinya?"
+      ],
+      "responses": [
+        "Revisi adalah bagian dari proses. Jangan melihatnya sebagai kritik pribadi, tetapi sebagai kesempatan untuk memperbaiki dan meningkatkan kualitas skripsimu. Setiap revisi yang diberikan dosen bertujuan untuk membuat skripsimu lebih kuat dan lebih solid. Cobalah untuk menerima kritik dengan kepala dingin dan lihat itu sebagai umpan balik yang berguna untuk hasil akhir yang lebih baik.",
+        "Menerima kritik memang tidak selalu mudah, tetapi itu adalah bagian penting dari proses belajar. Alih-alih merasa kecewa, gunakan kritik tersebut untuk refleksi dan perbaikan. Tanyakan dengan sopan jika ada bagian yang kurang jelas, dan pastikan kamu memahami dengan baik apa yang perlu diperbaiki.",
+        "Jika kamu merasa dosen tidak memahami arah penelitianmu, cobalah untuk berdiskusi lebih lanjut dengan mereka. Mungkin kamu bisa memberikan penjelasan yang lebih detail tentang alasan dan metodologi yang kamu pilih. Jangan ragu untuk berbicara dengan cara yang konstruktif untuk menjelaskan perspektif kamu.",
+        "Jika skripsimu banyak direvisi, jangan merasa putus asa. Revisi adalah bagian dari memperbaiki dan mematangkan tulisan. Cobalah untuk menyelesaikan satu revisi per hari. Ini akan membuat pekerjaan terasa lebih ringan dan lebih terorganisir. Ingat, skripsi yang baik adalah hasil dari proses yang panjang dan penuh perbaikan."
+      ]
+    },
+    {
+      "tag": "ujian_skripsi",
+      "patterns": [
+        "Saya merasa cemas akan ujian skripsi, bagaimana cara mempersiapkannya?",
+        "Bagaimana cara menghadapi ujian sidang skripsi tanpa merasa takut?",
+        "Apa yang harus saya lakukan agar ujian skripsi saya berjalan lancar?",
+        "Bagaimana cara menjaga fokus dan percaya diri saat ujian skripsi?"
+      ],
+      "responses": [
+        "Ujian sidang skripsi adalah kesempatan untuk menunjukkan bahwa kamu menguasai penelitianmu. Untuk mempersiapkannya, pastikan kamu benar-benar memahami setiap detail dari skripsimu, dari pendahuluan hingga kesimpulan. Berlatih untuk menjelaskan penelitianmu dengan jelas dan ringkas bisa meningkatkan rasa percaya dirimu.",
+        "Jangan biarkan rasa takut menguasai. Ingat, penguji bukanlah orang yang ingin menjatuhkanmu, mereka hanya ingin melihat seberapa dalam pemahamanmu terhadap topik yang telah kamu teliti. Latihan presentasi di depan teman atau keluarga bisa membantu menurunkan kecemasan. Jika ada pertanyaan yang sulit, jawab dengan tenang dan jangan ragu untuk meminta klarifikasi jika perlu.",
+        "Agar ujian sidang skripsimu berjalan lancar, persiapkan materi dengan baik. Siapkan jawaban untuk pertanyaan umum yang mungkin muncul, seperti alasan memilih topik, metodologi yang digunakan, dan hasil yang diharapkan. Percaya pada kemampuan dirimu karena kamu sudah melalui proses yang panjang untuk sampai ke titik ini.",
+        "Saat ujian skripsi, tetap tenang dan fokus pada apa yang kamu ingin sampaikan. Jangan terlalu memikirkan kemungkinan jawaban yang salah, tetapi fokuslah untuk menjelaskan apa yang sudah kamu pelajari dan hasil penelitianmu. Percayalah bahwa kamu siap dan telah melakukan persiapan yang cukup."
+      ]
+    },
+    {
+      "tag": "karir_after_graduation",
+      "patterns": [
+        "Saya khawatir tidak akan mendapat pekerjaan setelah lulus, apa yang bisa saya lakukan?",
+        "Bagaimana cara mempersiapkan diri untuk dunia kerja setelah skripsi?",
+        "Saya merasa cemas tentang masa depan karir saya setelah lulus, bagaimana cara menghadapinya?",
+        "Saya tidak tahu harus mulai dari mana untuk mencari pekerjaan setelah lulus, bagaimana cara memulai?"
+      ],
+      "responses": [
+        "Kecemasan mengenai pekerjaan setelah lulus adalah hal yang wajar, namun ingat bahwa banyak peluang yang bisa dijelajahi. Mulailah dengan memperbaiki CV dan profil LinkedIn kamu. Juga, cobalah untuk mencari peluang magang atau proyek freelance untuk meningkatkan pengalaman dan keterampilanmu.",
+        "Untuk mempersiapkan diri memasuki dunia kerja, bangun jaringan profesional dengan mengikuti seminar, konferensi, atau acara networking yang berhubungan dengan bidang yang kamu minati. Menjalin hubungan dengan orang-orang di industri yang kamu tuju bisa membuka banyak peluang kerja.",
+        "Cemas tentang masa depan karir setelah lulus memang bisa mengganggu, namun jangan biarkan kecemasan tersebut menghalangimu untuk bergerak maju. Fokus pada apa yang bisa kamu lakukan saat ini, seperti mengasah keterampilan tambahan, membuat portfolio, dan terus belajar tentang tren industri yang sedang berkembang.",
+        "Untuk memulai mencari pekerjaan, lakukan riset tentang perusahaan atau posisi yang kamu minati. Mulailah melamar pekerjaan sejak dini dan pastikan kamu melengkapi aplikasi dengan CV dan surat lamaran yang disesuaikan dengan pekerjaan yang kamu tuju. Setiap langkah kecil yang kamu ambil akan mendekatkanmu pada pekerjaan impian."
+      ]
+    },
+    {
+      "tag": "dukungan_skripsi",
+      "patterns": [
+        "Saya merasa terasing dan tidak ada yang memahami tekanan saya, bagaimana cara menghadapinya?",
+        "Saya merasa sendiri dalam mengerjakan skripsi ini, bagaimana cara menghadapi perasaan itu?",
+        "Saya merasa tidak ada yang mendukung saya, bagaimana cara mendapatkan dukungan dalam menyelesaikan skripsi?",
+        "Saya merasa terisolasi dalam proses skripsi, bagaimana cara mencari dukungan?"
+      ],
+      "responses": [
+        "Perasaan terasing memang bisa muncul, terutama saat kamu merasa sangat fokus pada skripsi. Cobalah untuk berbicara dengan teman atau keluarga, bahkan jika itu hanya untuk berbagi perasaan dan mendapatkan dukungan.",
+        "Jangan takut untuk mencari dukungan dari orang lain. Teman-teman yang juga sedang mengerjakan skripsi mungkin memiliki perasaan yang sama. Diskusi dengan mereka bisa mengurangi rasa terasing.",
+        "Terkadang, mencari dukungan bukan hanya tentang mendapatkan bantuan teknis, tetapi juga dukungan emosional. Bicarakan perasaanmu dengan orang yang kamu percayai. Kamu tidak sendirian dalam perjalanan ini.",
+        "Jika merasa terisolasi, cobalah untuk mencari kelompok studi atau bergabung dengan komunitas mahasiswa yang memiliki minat yang sama. Bisa jadi, dukungan dari kelompok ini akan sangat membantu."
+      ]
+    }
+  ]
+}
