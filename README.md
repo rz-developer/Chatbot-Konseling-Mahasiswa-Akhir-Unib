@@ -9,6 +9,12 @@ Tugas Pembuatan Model Chatbot Konseling dan Dukungan Mahasiswa Semester Akhir Un
 | Fadilah Syakirah   | G1A021022       | 
 | Adelia Ayu Lestari | G1A021066       | 
 
+## **Dataset Yang Digunakan**
+**Jenis Data** : Primer
+**Metode Pengumpulan Dataset** : Data dikumpulkan secara manual dengan research dan analisis mendalam terkait permasalahan-permasalahan Mahasiswa semester akhir
+**Total Kelas** : 93
+**Format File** : .JSON
+
 ## **Detail Pelatihan**
 1. Proses Pra-pemrosesan Data<br>
 Pada tahap ini, teks terlebih dahulu ditokenisasi menggunakan Tokenizer untuk mengubah setiap kata menjadi representasi numerik. Selanjutnya, padding diterapkan untuk menyamakan panjang semua urutan, sehingga data dapat diproses dalam bentuk batch. Setelah itu, encoding label dilakukan menggunakan LabelEncoder untuk mengonversi label kategori menjadi format numerik yang dapat digunakan oleh model.
