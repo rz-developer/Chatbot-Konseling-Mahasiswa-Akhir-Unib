@@ -3,7 +3,7 @@ Tugas Pembuatan Model Chatbot Konseling dan Dukungan Mahasiswa Semester Akhir Un
 
 
 | Nama               | NPM             | 
-|: ------------------|----------------:|
+| ------------------|----------------|
 | Fachrurazi         | G1A021016       |
 | Fadilah Syakirah   | G1A021022       | 
 | Adelia Ayu Lestari | G1A021066       | 
