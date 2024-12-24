@@ -21,8 +21,8 @@ Tugas Pembuatan Model Chatbot Konseling dan Dukungan Mahasiswa Semester Akhir Un
    
 **Detail Model**
 
-Total Pelatihan     : 300 epoch
-Rata-rata Accuracy  : 0.9797
+Total Pelatihan     : 300 epoch<br>
+Rata-rata Accuracy  : 0.9797<br>
 Grafik Accuracy
 
 <div align="center">
