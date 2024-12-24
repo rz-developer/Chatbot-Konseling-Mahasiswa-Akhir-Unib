@@ -10,10 +10,10 @@ Tugas Pembuatan Model Chatbot Konseling dan Dukungan Mahasiswa Semester Akhir Un
 | Adelia Ayu Lestari | G1A021066       | 
 
 ## **Dataset Yang Digunakan**
-**Jenis Data** : Primer
-**Metode Pengumpulan Dataset** : Data dikumpulkan secara manual dengan research dan analisis mendalam terkait permasalahan-permasalahan Mahasiswa semester akhir
-**Total Kelas** : 93
-**Format File** : .JSON
+**Jenis Data** : Primer<br>
+**Metode Pengumpulan Dataset** : Data dikumpulkan secara manual dengan research dan analisis mendalam terkait permasalahan-permasalahan Mahasiswa semester akhir<br>
+**Total Kelas** : 93<br>
+**Format File** : .JSON<br>
 
 ## **Detail Pelatihan**
 1. Proses Pra-pemrosesan Data<br>
