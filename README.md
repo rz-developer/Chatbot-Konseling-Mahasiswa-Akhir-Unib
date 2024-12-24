@@ -23,16 +23,16 @@ Tugas Pembuatan Model Chatbot Konseling dan Dukungan Mahasiswa Semester Akhir Un
 Total Pelatihan     : 300 epoch
 Rata-rata Accuracy  : 0.9797
 Grafik Accuracy
-<img src="https://github.com/user-attachments/assets/7692469f-be22-49d4-a930-7b5378baa0ea" width="300"/>
+<img src="https://github.com/user-attachments/assets/7692469f-be22-49d4-a930-7b5378baa0ea" width="700"/>
 
 
 Loss                : 0.0428
 Grafik Loss
-<img src="https://github.com/user-attachments/assets/1e25b6cc-783b-44df-b76d-31814f04b61b" width="300"/>
+<img src="https://github.com/user-attachments/assets/1e25b6cc-783b-44df-b76d-31814f04b61b" width="700"/>
 
 **Output Model**
 
-<img src="https://github.com/user-attachments/assets/d9e295fc-265f-48c4-8b56-918ea053cde9" width="300"/>
+<img src="https://github.com/user-attachments/assets/d9e295fc-265f-48c4-8b56-918ea053cde9" width="1000"/>
 
 
 **Kesimpulan**
