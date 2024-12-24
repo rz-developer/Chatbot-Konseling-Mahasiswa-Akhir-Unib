@@ -25,7 +25,7 @@ Arsitektur model yang digunakan terdiri dari beberapa komponen utama. Embedding 
   <img src="https://github.com/user-attachments/assets/8b481795-6b29-48dd-ba2a-9cd08eab397a" width="500"/>
 </div>
 <br>
-**Penjelasan**
+
 | **Layer**   | **Tipe Layer** | **Input Shape**    | **Output Shape**   | **Deskripsi**                                                            |
 |-------------|----------------|--------------------|--------------------|---------------------------------------------------------------------------|
 | Input Layer | InputLayer     | `(None, 17)`       | `(None, 17)`       | Layer input yang menerima data berupa urutan panjang 17.                  |
