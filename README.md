@@ -20,6 +20,7 @@ Tugas Pembuatan Model Chatbot Konseling dan Dukungan Mahasiswa Semester Akhir Un
    Proses pelatihan model dilakukan selama 300 epoch dengan pembagian dataset menjadi data pelatihan dan data pengujian. Hal ini memungkinkan model untuk belajar dari data pelatihan dan divalidasi kinerjanya menggunakan data pengujian.
    
 **Detail Model**
+
 Total Pelatihan     : 300 epoch
 Rata-rata Accuracy  : 0.9797
 Grafik Accuracy
