@@ -25,14 +25,14 @@ Total Pelatihan     : 300 epoch<br>
 Rata-rata Accuracy  : 0.9797<br>
 Grafik Accuracy
 
-<div align="center">
+<div align="left">
   <img src="https://github.com/user-attachments/assets/7692469f-be22-49d4-a930-7b5378baa0ea" width="700"/>
 </div>
 
 Loss                : 0.0428<br>
 Grafik Loss
 
-<div align="center">
+<div align="left">
    <img src="https://github.com/user-attachments/assets/1e25b6cc-783b-44df-b76d-31814f04b61b" width="700"/>
 </div>
 
