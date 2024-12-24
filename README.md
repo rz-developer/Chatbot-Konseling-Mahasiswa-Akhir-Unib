@@ -11,7 +11,7 @@ Tugas Pembuatan Model Chatbot Konseling dan Dukungan Mahasiswa Semester Akhir Un
 
 ## **Detail Pelatihan**
 1. Proses Pra-pemrosesan Data<br>
-&nbsp;&nbsp;&nbsp;Pada tahap ini, teks terlebih dahulu ditokenisasi menggunakan Tokenizer untuk mengubah setiap kata menjadi representasi numerik. Selanjutnya, padding diterapkan untuk menyamakan panjang semua urutan, sehingga data dapat diproses dalam bentuk batch. Setelah itu, encoding label dilakukan menggunakan LabelEncoder untuk mengonversi label kategori menjadi format numerik yang dapat digunakan oleh model.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pada tahap ini, teks terlebih dahulu ditokenisasi menggunakan Tokenizer untuk mengubah setiap kata menjadi representasi numerik. Selanjutnya, padding diterapkan untuk menyamakan panjang semua urutan, sehingga data dapat diproses dalam bentuk batch. Setelah itu, encoding label dilakukan menggunakan LabelEncoder untuk mengonversi label kategori menjadi format numerik yang dapat digunakan oleh model.
 2. Arsitektur Model<br>
 &nbsp;&nbsp;&nbsp;Arsitektur model yang digunakan terdiri dari beberapa komponen utama. Embedding Layer digunakan untuk merepresentasikan kata dalam bentuk vektor numerik berdimensi tetap. LSTM Layer bertugas memproses data berurutan dan menangkap hubungan temporal antar kata. Keluaran dari LSTM kemudian diratakan menggunakan Flatten Layer untuk menyesuaikan bentuknya dengan lapisan berikutnya. Akhirnya, Dense Layer dengan fungsi aktivasi softmax digunakan untuk menghasilkan prediksi dalam beberapa kelas
 3. Penyusunan dan Konfigurasi Model<br>
