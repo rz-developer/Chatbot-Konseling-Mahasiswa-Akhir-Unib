@@ -37,14 +37,14 @@ Grafik Loss
 </div>
 
 **Output Model**
-
+<br>
 <img src="https://github.com/user-attachments/assets/d9e295fc-265f-48c4-8b56-918ea053cde9" width="1000"/>
 
 
-**Kesimpulan**
+**Kesimpulan**<br?
   Dari pengujian model LTSM dalam pembangunan ChatBot Konseling dan Dukungan mahasiswa semester akhir Universitas Bengkulu dapat disimpulkan bahwa model mendapat akurasi yang cukup bagus, yakni dengan rata-rata akurasi sebesar 0.9797. Kemudian, nilai loss pada model menunjukkan angka 0.0428 yang berarti nilai kesalahan atau error pada model terbilang sangat kecil. Model LSTM dengan  total data sebesar 93 kelas dengan total pelatihan atau epoch sebanyak 300 ini sudah layak untuk diimplementasikan pada berbagai tugas yang melibatkan klasifikasi teks.
 
-**Saran**
+**Saran**<br>
   Model sudah cukup baik, tetapi masih harus diperbanyak lagi penambahan data, apalagi tema yang terkait konseling sangat amat bervariasi serta permasalahan sosial dan tekanan mental pada Mahasiswa sangat banyak yang dipengaruhi oleh berbagai faktor. Maka, untuk kedepannya Chatbot SahabatAkhirUnib haruslah dapat menjawab berbagai persoalan secara lebih luas lagi.
 
 
