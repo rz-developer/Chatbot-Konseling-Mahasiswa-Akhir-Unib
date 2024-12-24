@@ -18,7 +18,23 @@ Arsitektur model yang digunakan terdiri dari beberapa komponen utama. Embedding 
    Model disusun menggunakan fungsi loss Sparse Categorical Crossentropy, yang sesuai untuk tugas klasifikasi dengan label berupa integer. Optimizer Adam dipilih untuk mempercepat proses konvergensi model, sementara metrik akurasi digunakan untuk mengevaluasi kinerja model selama pelatihan.
 4. Training<br>
    Proses pelatihan model dilakukan selama 300 epoch dengan pembagian dataset menjadi data pelatihan dan data pengujian. Hal ini memungkinkan model untuk belajar dari data pelatihan dan divalidasi kinerjanya menggunakan data pengujian.
-   
+
+## **Arsitektur Model**
+<br>
+<div align="left">
+  <img src="https://github.com/user-attachments/assets/8b481795-6b29-48dd-ba2a-9cd08eab397a" width="500"/>
+</div>
+<br>
+**Penjelasan**
+| **Layer**   | **Tipe Layer** | **Input Shape**    | **Output Shape**   | **Deskripsi**                                                            |
+|-------------|----------------|--------------------|--------------------|---------------------------------------------------------------------------|
+| Input Layer | InputLayer     | `(None, 17)`       | `(None, 17)`       | Layer input yang menerima data berupa urutan panjang 17.                  |
+| Embedding   | Embedding      | `(None, 17)`       | `(None, 17, 20)`   | Mengubah indeks kata menjadi representasi vektor embedding berdimensi 20. |
+| LSTM        | LSTM           | `(None, 17, 20)`   | `(None, 17, 20)`   | Layer LSTM untuk memproses data sequential dengan keluaran sekuensial.    |
+| Flatten     | Flatten        | `(None, 17, 20)`   | `(None, 340)`      | Mengubah tensor 3D menjadi 1D agar dapat digunakan pada layer Dense.      |
+| Dense       | Dense          | `(None, 340)`      | `(None, 93)`       | Fully connected layer dengan 93 neuron (kemungkinan untuk klasifikasi).   |
+
+
 ## **Detail Model**
 
 Total Pelatihan     : 300 epoch<br>
