@@ -23,14 +23,17 @@ Tugas Pembuatan Model Chatbot Konseling dan Dukungan Mahasiswa Semester Akhir Un
 Total Pelatihan     : 300 epoch
 Rata-rata Accuracy  : 0.9797
 Grafik Accuracy
-![image](https://github.com/user-attachments/assets/7692469f-be22-49d4-a930-7b5378baa0ea)
+<img src="https://github.com/user-attachments/assets/7692469f-be22-49d4-a930-7b5378baa0ea" width="300"/>
+
 
 Loss                : 0.0428
 Grafik Loss
-![image](https://github.com/user-attachments/assets/1e25b6cc-783b-44df-b76d-31814f04b61b)
+<img src="https://github.com/user-attachments/assets/1e25b6cc-783b-44df-b76d-31814f04b61b" width="300"/>
 
 **Output Model**
-![image](https://github.com/user-attachments/assets/d9e295fc-265f-48c4-8b56-918ea053cde9)
+
+<img src="https://github.com/user-attachments/assets/d9e295fc-265f-48c4-8b56-918ea053cde9" width="300"/>
+
 
 **Kesimpulan**
   Dari pengujian model LTSM dalam pembangunan ChatBot Konseling dan Dukungan mahasiswa semester akhir Universitas Bengkulu dapat disimpulkan bahwa model mendapat akurasi yang cukup bagus, yakni dengan rata-rata akurasi sebesar 0.9797. Kemudian, nilai loss pada model menunjukkan angka 0.0428 yang berarti nilai kesalahan atau error pada model terbilang sangat kecil. Model LSTM dengan  total data sebesar 93 kelas dengan total pelatihan atau epoch sebanyak 300 ini sudah layak untuk diimplementasikan pada berbagai tugas yang melibatkan klasifikasi teks.
