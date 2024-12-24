@@ -29,7 +29,7 @@ Grafik Accuracy
   <img src="https://github.com/user-attachments/assets/7692469f-be22-49d4-a930-7b5378baa0ea" width="700"/>
 </div>
 
-Loss                : 0.0428
+Loss                : 0.0428<br>
 Grafik Loss
 
 <div align="center">
