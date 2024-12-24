@@ -66,7 +66,7 @@ Arsitektur model yang digunakan terdiri dari beberapa komponen utama. Embedding 
 
 ## **Output Model**
 <br>
-<img src="https://github.com/user-attachments/assets/d9e295fc-265f-48c4-8b56-918ea053cde9" width="1000"/>
+<img src="https://github.com/user-attachments/assets/594fd7a9-8f5d-45cf-8529-5b5965a631f1" width="1000"/>
 
 ## **Apakah Model Yang Dibangun Merupakan Deep Learning Atau Shallow Learn?**
 Pada Model yang dibangun merupakan model LSTM (Long Short Time Memory), dimana model ini memiliki beberapa layer, seperti layer input, layer embedding, layer LSTM, layer flatten, dan layer dense. Jika menganalisa perbedaan dari model Deep Learning dan model Shallow Learn, Deep Learning cenderung memiliki banyak lapisan layer , sementara itu Shallow Learn merupakan model sederhana yang hanya memiliki beberapa lapisan layer saja, atau bahkan 1 lapisan layer. Model Shallow Learn juga tidak cocok untuk menangani tugas kompleks seperti ChatBot. Maka dari itu, model LSTM yang dibangun merupakan model Deep Learning karena memiliki beberapa lapisan layer yang saling terhubung dan dapat menyelesaikan tugas yang cukup kompleks seperti pembuatan model ChatBot atau tugas klasifikasi teksun. 
